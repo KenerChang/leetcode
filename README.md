@@ -18,7 +18,7 @@ problem           | golang  | python | js | java
 [0040](https://leetcode.com/problems/combination-sum-ii/) | [link](https://github.com/KenerChang/leetcode/tree/master/0040/golang) | | |
 [0043](https://leetcode.com/problems/multiply-strings/) | [link](https://github.com/KenerChang/leetcode/tree/master/0043/golang) | | |
 [0046](https://leetcode.com/problems/permutations/) | [link](https://github.com/KenerChang/leetcode/tree/master/0046/golang)
-
+[0047](https://leetcode.com/problems/permutations-ii/) | [link](https://github.com/KenerChang/leetcode/tree/master/0047/golang)
 
 
 
