@@ -8,21 +8,12 @@ func permuteUnique(nums []int) [][]int {
 		return [][]int{}
 	}
 	// check if duplicated
-	results := permute(nums)
-
-	resultMap := map[string]bool{}
-	finalResult := [][]int{}
-	for _, nums := range results {
-		key := fmt.Sprint(nums)
-		if _, ok := resultMap[key]; !ok {
-			resultMap[key] = true
-			finalResult = append(finalResult, nums)
-		}
-	}
-    return finalResult
+	records := map[string][]int{}
+	results := permute(nums, records)
+    return results
 }
 
-func permute(nums []int) [][]int {
+func permute(nums []int, records map[string][]int) [][]int {
 	// use recursive
 	// iterate nums and choose one number to put at first
 	// the remain numbers are put to permute funtion
@@ -52,10 +43,14 @@ func permute(nums []int) [][]int {
 			remains = append(remains, nums[idx+1:]...)
 		}
 
-		subResults := permute(remains)
+		subResults := permute(remains, records)
 		for _, subResult := range subResults {
 			result := append([]int{num}, subResult...)
-			results = append(results, result)
+			key := fmt.Sprint(result)
+			if _, ok := records[key]; !ok {
+				records[key] = result
+				results = append(results, result)
+			}
 		}
 	}
 	return results
