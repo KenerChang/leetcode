@@ -3,6 +3,7 @@ package anagrams
 import "sort"
 
 func groupAnagrams(strs []string) [][]string {
+	// sort each str alphabetically so that anagrams have same expression
 	angramMap := map[string][]string{}
 	for _, str := range strs {
 		sortedStr := sortString(str)
