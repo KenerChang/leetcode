@@ -24,3 +24,4 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0050](https://leetcode.com/problems/powx-n/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0050/golang) |        |      |
 | [0054](https://leetcode.com/problems/spiral-matrix/)      | [link](https://github.com/KenerChang/leetcode/tree/master/0054/golang) |        |      |
 | [0055](https://leetcode.com/problems/jump-game/)          | [link](https://github.com/KenerChang/leetcode/tree/master/0055/golang) |        |      |
+| [0056](https://leetcode.com/problems/merge-intervals/)    | [link](https://github.com/KenerChang/leetcode/tree/master/0056/golang) |        |      |
