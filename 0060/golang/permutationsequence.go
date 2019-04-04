@@ -15,41 +15,30 @@ func getPermutation(n int, k int) string {
 		nums = append(nums, i)
 	}
 
-	n_1factorial := factioral(n - 1)
-	numIdx := targetIndex / n_1factorial
-	shift := targetIndex % n_1factorial
+	subNums := nums
+	var numIdx int
+	remain := targetIndex
+	sizeOfSubNumsPermutation := factioral(n - 1)
+	permutations := []int{}
+	for len(subNums) > 1 {
+		fmt.Printf("subNums: %+v\n", subNums)
+		numIdx = remain / sizeOfSubNumsPermutation
+		fmt.Printf("numIdx: %d, remain: %d, sizeOfSubNumsPermutation: %d\n", numIdx, remain, sizeOfSubNumsPermutation)
+		remain = remain % sizeOfSubNumsPermutation
+		permutations = append(permutations, subNums[numIdx])
 
-	subNums := getSubNums(numIdx, nums)
-	permutations := genPermutation(subNums)
+		subNums = getSubNums(numIdx, subNums)
+		sizeOfSubNumsPermutation = factioral(len(subNums) - 1)
+	}
 
-	target := fmt.Sprintf("%d%s", nums[numIdx], permutations[shift])
+	permutations = append(permutations, subNums[0])
+
+	target := ""
+	for _, num := range permutations {
+		target = fmt.Sprintf("%s%d", target, num)
+	}
 
 	return target
-}
-
-func genPermutation(nums []int) []string {
-	if len(nums) == 0 {
-		return []string{}
-	}
-
-	if len(nums) == 1 {
-		return []string{
-			fmt.Sprint(nums[0]),
-		}
-	}
-
-	output := []string{}
-	var subNums []int
-	var permutations []string
-	for idx, num := range nums {
-		subNums = getSubNums(idx, nums)
-		permutations = genPermutation(subNums)
-
-		for _, permutation := range permutations {
-			output = append(output, fmt.Sprintf("%d%s", num, permutation))
-		}
-	}
-	return output
 }
 
 func getSubNums(idx int, nums []int) []int {
