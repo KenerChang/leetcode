@@ -1,22 +1,76 @@
 package miniumpathsum
 
+// import "fmt"
+
+func minPathSumDP(grid [][]int) int {
+	if len(grid) == 0 || len(grid[0]) == 0 {
+		return 0
+	}
+
+	cache := make([][]int, len(grid))
+	for idx := range cache {
+		cache[idx] = make([]int, len(grid[0]))
+	}
+
+	targetX := len(grid) - 1
+	targetY := len(grid[0]) - 1
+
+	cache[targetX][targetY] = grid[targetX][targetY]
+	minPath := grid[targetX][targetY]
+	for i := targetX - 1; i >= 0; i-- {
+		minPath += grid[i][targetY]
+		cache[i][targetY] = minPath
+	}
+
+	minPath = grid[targetX][targetY]
+	for i := targetY - 1; i >= 0; i-- {
+		minPath += grid[targetX][i]
+		cache[targetX][i] = minPath
+	}
+
+	for i := targetX - 1; i >= 0; i-- {
+		for j := targetY - 1; j >= 0; j-- {
+			cache[i][j] = Min(cache[i+1][j], cache[i][j+1])
+			cache[i][j] += grid[i][j]
+		}
+	}
+	return cache[0][0]
+}
+
 func minPathSum(grid [][]int) int {
 	rowsNum := len(grid)
 	if rowsNum == 0 {
 		return 0
 	}
+	targetX := rowsNum - 1
 
 	colsNum := len(grid[0])
 	if colsNum == 0 {
 		return 0
 	}
+	targetY := colsNum - 1
 
 	if rowsNum == 1 && colsNum == 1 {
 		return grid[0][0]
 	}
 
 	pathCache := map[int64]int{}
-	return minPathSumImpl(grid, 0, 0, rowsNum-1, colsNum-1, pathCache)
+	// compute some default cache
+	minPath := grid[targetX][targetY]
+	for i := targetX - 1; i >= 0; i-- {
+		minPath += grid[i][targetY]
+		key := getKey(i, targetY)
+		pathCache[key] = minPath
+	}
+
+	minPath = grid[targetX][targetY]
+	for i := targetY - 1; i >= 0; i-- {
+		minPath += grid[targetX][i]
+		key := getKey(targetX, i)
+		pathCache[key] = minPath
+	}
+
+	return minPathSumImpl(grid, 0, 0, targetX, targetY, pathCache)
 }
 
 func minPathSumImpl(grid [][]int, x, y, targetX, targetY int, pathCache map[int64]int) int {
@@ -28,9 +82,7 @@ func minPathSumImpl(grid [][]int, x, y, targetX, targetY int, pathCache map[int6
 		return grid[x][y]
 	}
 
-	key := int64(x)
-	key = key << 32
-	key += int64(y)
+	key := getKey(x, y)
 	if minPath, ok := pathCache[key]; ok {
 		return minPath
 	}
@@ -65,4 +117,11 @@ func Min(nums ...int) int {
 		}
 	}
 	return min
+}
+
+func getKey(x, y int) int64 {
+	key := int64(x)
+	key = key << 32
+	key += int64(y)
+	return key
 }
