@@ -7,34 +7,28 @@ func minPathSumDP(grid [][]int) int {
 		return 0
 	}
 
-	cache := make([][]int, len(grid))
-	for idx := range cache {
-		cache[idx] = make([]int, len(grid[0]))
-	}
-
 	targetX := len(grid) - 1
 	targetY := len(grid[0]) - 1
 
-	cache[targetX][targetY] = grid[targetX][targetY]
 	minPath := grid[targetX][targetY]
 	for i := targetX - 1; i >= 0; i-- {
 		minPath += grid[i][targetY]
-		cache[i][targetY] = minPath
+		grid[i][targetY] = minPath
 	}
 
 	minPath = grid[targetX][targetY]
 	for i := targetY - 1; i >= 0; i-- {
 		minPath += grid[targetX][i]
-		cache[targetX][i] = minPath
+		grid[targetX][i] = minPath
 	}
 
 	for i := targetX - 1; i >= 0; i-- {
 		for j := targetY - 1; j >= 0; j-- {
-			cache[i][j] = Min(cache[i+1][j], cache[i][j+1])
-			cache[i][j] += grid[i][j]
+			min := Min(grid[i+1][j], grid[i][j+1])
+			grid[i][j] = min + grid[i][j]
 		}
 	}
-	return cache[0][0]
+	return grid[0][0]
 }
 
 func minPathSum(grid [][]int) int {
