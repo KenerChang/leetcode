@@ -1,7 +1,5 @@
 package miniumpathsum
 
-import "fmt"
-
 func minPathSum(grid [][]int) int {
 	rowsNum := len(grid)
 	if rowsNum == 0 {
@@ -17,11 +15,11 @@ func minPathSum(grid [][]int) int {
 		return grid[0][0]
 	}
 
-	pathCache := map[string]int{}
+	pathCache := map[int64]int{}
 	return minPathSumImpl(grid, 0, 0, rowsNum-1, colsNum-1, pathCache)
 }
 
-func minPathSumImpl(grid [][]int, x, y, targetX, targetY int, pathCache map[string]int) int {
+func minPathSumImpl(grid [][]int, x, y, targetX, targetY int, pathCache map[int64]int) int {
 	// since we can only go right or go down
 	// the minium path must through the right point or down point
 	// so we can solve this problem by finding minium path of right point and down point recursively
@@ -30,9 +28,10 @@ func minPathSumImpl(grid [][]int, x, y, targetX, targetY int, pathCache map[stri
 		return grid[x][y]
 	}
 
-	key := fmt.Sprintf("%d,%d", x, y)
+	key := int64(x)
+	key = key << 32
+	key += int64(y)
 	if minPath, ok := pathCache[key]; ok {
-		fmt.Printf("hit cache, x: %d, y: %d", x, y)
 		return minPath
 	}
 
