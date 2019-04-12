@@ -32,3 +32,4 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0063](https://leetcode.com/problems/unique-paths-ii/)      | [link](https://github.com/KenerChang/leetcode/tree/master/0063/golang) |        |      |
 | [0064](https://leetcode.com/problems/minimum-path-sum/)     | [link](https://github.com/KenerChang/leetcode/tree/master/0064/golang) |        |      |
 | [0069](https://leetcode.com/problems/sqrtx/)                | [link](https://github.com/KenerChang/leetcode/tree/master/0069/golang) |        |      |
+| [0070](https://leetcode.com/problems/climbing-stairs/)      | [link](https://github.com/KenerChang/leetcode/tree/master/0070/golang) |        |      |
