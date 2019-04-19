@@ -34,3 +34,4 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0069](https://leetcode.com/problems/sqrtx/)                | [link](https://github.com/KenerChang/leetcode/tree/master/0069/golang) |        |      |
 | [0070](https://leetcode.com/problems/climbing-stairs/)      | [link](https://github.com/KenerChang/leetcode/tree/master/0070/golang) |        |      |
 | [0071](https://leetcode.com/problems/simplify-path/)        | [link](https://github.com/KenerChang/leetcode/tree/master/0071/golang) |        |      |
+| [0073](https://leetcode.com/problems/simplify-path/)        | [link](https://github.com/KenerChang/leetcode/tree/master/0073/golang) |        |      |
