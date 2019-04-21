@@ -36,3 +36,4 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0071](https://leetcode.com/problems/simplify-path/)        | [link](https://github.com/KenerChang/leetcode/tree/master/0071/golang) |        |      |
 | [0073](https://leetcode.com/problems/simplify-path/)        | [link](https://github.com/KenerChang/leetcode/tree/master/0073/golang) |        |      |
 | [0074](https://leetcode.com/problems/search-a-2d-matrix/)   | [link](https://github.com/KenerChang/leetcode/tree/master/0074/golang) |        |      |
+| [0075](https://leetcode.com/problems/sort-colors/)          | [link](https://github.com/KenerChang/leetcode/tree/master/0075/golang) |        |      |
