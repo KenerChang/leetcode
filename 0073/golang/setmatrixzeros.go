@@ -36,21 +36,31 @@ func setZeroes(matrix [][]int) {
 	}
 
 	for i := 1; i < rowNum; i++ {
-		for j := 1; j < colNum; j++ {
-			if matrix[i][0] == 0 || matrix[0][j] == 0 {
+		// check this should be set zeros
+		if matrix[i][0] == 0 {
+			for j := 1; j < colNum; j++ {
 				matrix[i][j] = 0
 			}
 		}
 	}
 
+	for i := 1; i < colNum; i++ {
+		if matrix[0][i] == 0 {
+			for j := 1; j < rowNum; j++ {
+				matrix[j][i] = 0
+			}
+		}
+	}
+
 	if firstRowZero {
-		// set frist to zeros
+		// set frist row to zeros
 		for i := 0; i < colNum; i++ {
 			matrix[0][i] = 0
 		}
 	}
 
 	if firstColZero {
+		// set first column to zeros
 		for i := 0; i < rowNum; i++ {
 			matrix[i][0] = 0
 		}
