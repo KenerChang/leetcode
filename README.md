@@ -38,3 +38,4 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0074](https://leetcode.com/problems/search-a-2d-matrix/)   | [link](https://github.com/KenerChang/leetcode/tree/master/0074/golang) |        |      |
 | [0075](https://leetcode.com/problems/sort-colors/)          | [link](https://github.com/KenerChang/leetcode/tree/master/0075/golang) |        |      |
 | [0077](https://leetcode.com/problems/combinations/)         | [link](https://github.com/KenerChang/leetcode/tree/master/0077/golang) |        |      |
+| [0078](https://leetcode.com/problems/subsets/)              | [link](https://github.com/KenerChang/leetcode/tree/master/0078/golang) |        |      |
