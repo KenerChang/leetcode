@@ -42,3 +42,4 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0079](https://leetcode.com/problems/word-search/)                            | [link](https://github.com/KenerChang/leetcode/tree/master/0079/golang) |        |      |
 | [0080](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [link](https://github.com/KenerChang/leetcode/tree/master/0080/golang) |        |      |
 | [0081](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)      | [link](https://github.com/KenerChang/leetcode/tree/master/0081/golang) |        |      |
+| [0082](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  | [link](https://github.com/KenerChang/leetcode/tree/master/0082/golang) |        |      |
