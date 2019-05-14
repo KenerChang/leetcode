@@ -46,3 +46,4 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0083](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)     | [link](https://github.com/KenerChang/leetcode/tree/master/0083/golang) |        |      |
 | [0086](https://leetcode.com/problems/partition-list/)                         | [link](https://github.com/KenerChang/leetcode/tree/master/0086/golang) |        |      |
 | [0088](https://leetcode.com/problems/merge-sorted-array/)                     | [link](https://github.com/KenerChang/leetcode/tree/master/0088/golang) |        |      |
+| [0089](https://leetcode.com/problems/gray-code/)                              | [link](https://github.com/KenerChang/leetcode/tree/master/0089/golang) |        |      |
