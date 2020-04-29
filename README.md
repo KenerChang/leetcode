@@ -51,4 +51,5 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0091](https://leetcode.com/problems/decode-ways/)                            | [link](https://github.com/KenerChang/leetcode/tree/master/0091/golang) |        |      |
 | [0092](https://leetcode.com/problems/reverse-linked-list-ii/)                            | [link](https://github.com/KenerChang/leetcode/tree/master/0092/golang) |        |      |
 | [0093](https://leetcode.com/problems/restore-ip-addresses/)                            | [link](https://github.com/KenerChang/leetcode/tree/master/0093/golang) |        |      |
-| [0094](https://leetcode.com/problems/binary-tree-inorder-traversal/)                            | [link](https://github.com/KenerChang/leetcode/tree/master/0094/golang) |        |      |
+| [0094](https://leetcode.com/problems/binary-tree-inorder-traversal/)                            | [link](https://github.com/KenerChang/leetcode/tree/master/0094/golang/binarytreeinordertraversal) |        |      |
+| [0095](https://leetcode.com/problems/unique-binary-search-trees-ii/)                            | [link](https://github.com/KenerChang/leetcode/tree/master/0095/golang) |        |      |
