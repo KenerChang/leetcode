@@ -9,45 +9,39 @@ func generateTrees(n int) []*btit.TreeNode {
 	if n == 0 {
 		return []*btit.TreeNode{}
 	}
-	nums := make([]int, n)
-	for i := 1; i <= n; i++ {
-		nums[i-1] = i
-	}
 
 	cache := map[string][]*btit.TreeNode{}
-	return generateTreesImpl(nums, cache)
+	return generateTreesImpl(1, n, cache)
 }
 
-func generateTreesImpl(nums []int, cache map[string][]*btit.TreeNode) (trees []*btit.TreeNode) {
-	key := toKey(nums)
+func generateTreesImpl(start, end int, cache map[string][]*btit.TreeNode) (trees []*btit.TreeNode) {
+	if start == end {
+		trees = []*btit.TreeNode{
+			&btit.TreeNode{
+				Val: start,
+			},
+		}
+		return
+	}
+
+	key := toKey(start, end)
 	if trees, found := cache[key]; found {
 		return trees
 	}
 
-	if len(nums) == 1 {
-		trees = []*btit.TreeNode{
-			&btit.TreeNode{
-				Val: nums[0],
-			},
-		}
-		cache[key] = trees
-		return
-	}
-
-	numLen := len(nums)
-	for idx, num := range nums {
-		if idx == 0 {
+	for num := start; num <= end; num++ {
+		if num == start {
 			// since nums are sorted, first number can only has right node
-			subTrees := generateTreesImpl(nums[1:numLen], cache)
+			subTrees := generateTreesImpl(start+1, end, cache)
 			for _, subTree := range subTrees {
 				trees = append(trees, &btit.TreeNode{
 					Val:   num,
 					Right: subTree,
 				})
 			}
-		} else if idx == numLen-1 {
+		} else if num == end {
 			// last number can only has left node
-			subTrees := generateTreesImpl(nums[0:numLen-1], cache)
+			subTrees := generateTreesImpl(start, end-1, cache)
 			for _, subTree := range subTrees {
 				trees = append(trees, &btit.TreeNode{
 					Val:  num,
@@ -55,8 +49,8 @@ func generateTreesImpl(nums []int, cache map[string][]*btit.TreeNode) (trees []*
 				})
 			}
 		} else {
-			leftSubTrees := generateTreesImpl(nums[0:idx], cache)
-			rightSubTrees := generateTreesImpl(nums[idx+1:numLen], cache)
+			leftSubTrees := generateTreesImpl(start, num-1, cache)
+			rightSubTrees := generateTreesImpl(num+1, end, cache)
 			for _, leftTree := range leftSubTrees {
 				for _, rightTree := range rightSubTrees {
 					trees = append(trees, &btit.TreeNode{
@@ -72,10 +66,6 @@ func generateTreesImpl(nums []int, cache map[string][]*btit.TreeNode) (trees []*
 	return
 }
 
-func toKey(nums []int) string {
-	key := ""
-	for _, num := range nums {
-		key += "," + strconv.Itoa(num)
-	}
-	return key
+func toKey(start, end int) string {
+	return strconv.Itoa(start) + "," + strconv.Itoa(end)
 }
