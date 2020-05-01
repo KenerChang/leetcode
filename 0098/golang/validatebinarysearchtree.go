@@ -14,7 +14,7 @@ var ZERO *big.Int = big.NewInt(0)
 var ONE *big.Int = big.NewInt(1)
 var TWO *big.Int = big.NewInt(2)
 
-func isValidBST(root *TreeNode) bool {
+func isValidBSTBig(root *TreeNode) bool {
 	if root == nil {
 		return true
 	}
@@ -23,15 +23,15 @@ func isValidBST(root *TreeNode) bool {
 	treePos := map[string]*TreeNode{
 		"1": root,
 	}
-	return isValidBSTImpl(root, treePos, nodeNum)
+	return isValidBSTBigImpl(root, treePos, nodeNum)
 }
 
-func isValidBSTImpl(tree *TreeNode, treePos map[string]*TreeNode, nodeNum *big.Int) bool {
+func isValidBSTBigImpl(tree *TreeNode, treePos map[string]*TreeNode, nodeNum *big.Int) bool {
 	if tree == nil {
 		return true
 	}
 
-	passed := validate(tree, treePos, nodeNum)
+	passed := validateBig(tree, treePos, nodeNum)
 	if !passed {
 		return false
 	}
@@ -40,7 +40,7 @@ func isValidBSTImpl(tree *TreeNode, treePos map[string]*TreeNode, nodeNum *big.I
 
 	leftNodeNum := big.NewInt(1)
 	leftNodeNum = leftNodeNum.Mul(nodeNum, TWO)
-	passed = isValidBSTImpl(tree.Left, treePos, leftNodeNum)
+	passed = isValidBSTBigImpl(tree.Left, treePos, leftNodeNum)
 	if !passed {
 		return false
 	}
@@ -49,15 +49,15 @@ func isValidBSTImpl(tree *TreeNode, treePos map[string]*TreeNode, nodeNum *big.I
 	rightNodeNum = rightNodeNum.Mul(nodeNum, TWO)
 	rightNodeNum = rightNodeNum.Add(rightNodeNum, ONE)
 
-	passed = isValidBSTImpl(tree.Right, treePos, rightNodeNum)
+	passed = isValidBSTBigImpl(tree.Right, treePos, rightNodeNum)
 	if !passed {
 		return false
 	}
 
-	return validate(tree, treePos, nodeNum)
+	return true
 }
 
-func validate(node *TreeNode, treePos map[string]*TreeNode, nodeNum *big.Int) bool {
+func validateBig(node *TreeNode, treePos map[string]*TreeNode, nodeNum *big.Int) bool {
 	ancestorNum := big.NewInt(1)
 	remainder := big.NewInt(1)
 	ancestorNum, remainder = ancestorNum.DivMod(nodeNum, TWO, remainder)
