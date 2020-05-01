@@ -179,3 +179,14 @@ func TestIsValidBSTX(t *testing.T) {
 		t.Errorf("expect %t, got: %t", target, result)
 	}
 }
+
+func TestIsValidBSTXI(t *testing.T) {
+	tree := &TreeNode{
+		Val: 2147483647,
+	}
+	target := true
+	result := isValidBST(tree)
+	if target != result {
+		t.Errorf("expect %t, got: %t", target, result)
+	}
+}
