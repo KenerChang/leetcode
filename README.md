@@ -55,3 +55,4 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0095](https://leetcode.com/problems/unique-binary-search-trees-ii/)          | [link](https://github.com/KenerChang/leetcode/tree/master/0095/golang) |        |      |
 | [0096](https://leetcode.com/problems/unique-binary-search-trees/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0096/golang) |        |      |
 | [0098](https://leetcode.com/problems/validate-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0098/golang) |        |      |
+| [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
