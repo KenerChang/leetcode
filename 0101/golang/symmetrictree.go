@@ -10,7 +10,7 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-func isSymmetric(root *TreeNode) bool {
+func isSymmetricStack(root *TreeNode) bool {
 	if root == nil {
 		return true
 	}
