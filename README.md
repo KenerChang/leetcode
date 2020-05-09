@@ -59,4 +59,5 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0101](https://leetcode.com/problems/symmetric-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0101/golang) |        |      |
 | [0102](https://leetcode.com/problems/binary-tree-level-order-traversal/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0102/golang) |        |      |
 | [0103](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0103/golang) |        |      |
+| [0104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0104/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
