@@ -102,3 +102,37 @@ func TestBuildTreeIV(t *testing.T) {
 		t.Errorf("target does not match result")
 	}
 }
+
+func TestBuildTreeV(t *testing.T) {
+	preorder := []int{1, 2}
+	inorder := []int{2, 1}
+	target := &TreeNode{
+		Val: 1,
+		Left: &TreeNode{
+			Val: 2,
+		},
+	}
+
+	result := buildTree(preorder, inorder)
+
+	if !verify(target, result) {
+		t.Errorf("target does not match result")
+	}
+}
+
+func TestBuildTreeVI(t *testing.T) {
+	preorder := []int{1, 2}
+	inorder := []int{1, 2}
+	target := &TreeNode{
+		Val: 1,
+		Right: &TreeNode{
+			Val: 2,
+		},
+	}
+
+	result := buildTree(preorder, inorder)
+
+	if !verify(target, result) {
+		t.Errorf("target does not match result")
+	}
+}

@@ -17,7 +17,7 @@ func buildTree(preorder []int, inorder []int) *TreeNode {
 	root := preorder[0]
 	idx := findIdx(inorder, root)
 	leftInorder, rightInorder := splitInorderTree(inorder, idx)
-	leftPreorder, rightPreorder := splitPreorderTree(preorder, len(leftInorder))
+	leftPreorder, rightPreorder := splitPreorderTree(preorder, len(leftInorder), len(rightInorder))
 
 	tree := &TreeNode{
 		Val:   root,
@@ -48,7 +48,12 @@ func splitInorderTree(inorder []int, rootIdx int) ([]int, []int) {
 	return inorder[0:rootIdx], inorder[rootIdx+1 : treeSize]
 }
 
-func splitPreorderTree(preorder []int, leftTreeSize int) ([]int, []int) {
+func splitPreorderTree(preorder []int, leftTreeSize, rightTreeSize int) ([]int, []int) {
 	treeSize := len(preorder)
-	return preorder[1:leftTreeSize], preorder[leftTreeSize:treeSize]
+	if leftTreeSize == 0 {
+		return []int{}, preorder[1:treeSize]
+	} else if rightTreeSize == 0 {
+		return preorder[1:treeSize], []int{}
+	}
+	return preorder[1 : leftTreeSize+1], preorder[leftTreeSize+1 : treeSize]
 }
