@@ -6,7 +6,16 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-func buildTree(preorder []int, inorder []int) *TreeNode {
+func buildTree(preorder, inorder []int) *TreeNode {
+	inorderMap := map[int]int{}
+	for idx, num := range inorder {
+		inorderMap[num] = idx
+	}
+
+	return buildTreeImpl(preorder, inorder, inorderMap, 0)
+}
+
+func buildTreeImpl(preorder []int, inorder []int, inorderMap map[int]int, offset int) *TreeNode {
 	// preoder: VLR
 	// inorder: LVR
 
@@ -15,26 +24,22 @@ func buildTree(preorder []int, inorder []int) *TreeNode {
 	}
 
 	root := preorder[0]
-	idx := findIdx(inorder, root)
+	idx := findIdx(inorderMap, root, offset)
 	leftInorder, rightInorder := splitInorderTree(inorder, idx)
 	leftPreorder, rightPreorder := splitPreorderTree(preorder, len(leftInorder), len(rightInorder))
 
 	tree := &TreeNode{
 		Val:   root,
-		Left:  buildTree(leftPreorder, leftInorder),
-		Right: buildTree(rightPreorder, rightInorder),
+		Left:  buildTreeImpl(leftPreorder, leftInorder, inorderMap, offset),
+		Right: buildTreeImpl(rightPreorder, rightInorder, inorderMap, offset+idx+1),
 	}
 
 	return tree
 }
 
-func findIdx(nums []int, target int) int {
-	for idx, num := range nums {
-		if num == target {
-			return idx
-		}
-	}
-	return -1
+func findIdx(idxMap map[int]int, target, offset int) int {
+	idx, _ := idxMap[target]
+	return idx - offset
 }
 
 func splitInorderTree(inorder []int, rootIdx int) ([]int, []int) {
