@@ -1,5 +1,9 @@
 package constructbinarytreefrominorderandpostordertraversal
 
+// import (
+// 	"fmt"
+// )
+
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
@@ -12,10 +16,10 @@ func buildTree(inorder []int, postorder []int) *TreeNode {
 		inorderMap[num] = idx
 	}
 
-	return buildTreeImpl(inorder, postorder, inorderMap, 0)
+	return buildTreeImpl(postorder, inorderMap, 0)
 }
 
-func buildTreeImpl(inorder, postorder []int, inorderMap map[int]int, offset int) *TreeNode {
+func buildTreeImpl(postorder []int, inorderMap map[int]int, offset int) *TreeNode {
 	treeSize := len(postorder)
 	if treeSize == 0 {
 		return nil
@@ -25,17 +29,15 @@ func buildTreeImpl(inorder, postorder []int, inorderMap map[int]int, offset int)
 
 	// LVR
 	inorderRootIdx := inorderMap[root] - offset
-	inorderLeftTree := inorder[0:inorderRootIdx]
-	inorderRightTree := inorder[:inorderRootIdx+1]
 
 	// LRV
-	postorderLeftTree := postorder[0:len(inorderLeftTree)]
-	postorderRightTree := postorder[len(inorderLeftTree) : treeSize-1]
+	postorderLeftTree := postorder[0:inorderRootIdx]
+	postorderRightTree := postorder[len(postorderLeftTree) : treeSize-1]
 
 	tree := &TreeNode{
 		Val:   root,
-		Left:  buildTreeImpl(inorderLeftTree, postorderLeftTree, inorderMap, offset),
-		Right: buildTreeImpl(inorderRightTree, postorderRightTree, inorderMap, offset+inorderRootIdx+1),
+		Left:  buildTreeImpl(postorderLeftTree, inorderMap, offset),
+		Right: buildTreeImpl(postorderRightTree, inorderMap, offset+inorderRootIdx+1),
 	}
 
 	return tree
