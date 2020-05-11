@@ -15,7 +15,7 @@ func verify(levels1, levels2 [][]int) bool {
 			return false
 		}
 
-		for j, num1 := range level2 {
+		for j, num1 := range level1 {
 			num2 := level2[j]
 			if num1 != num2 {
 				return false
@@ -122,6 +122,25 @@ func TestLevelOrderBottomV(t *testing.T) {
 	target := [][]int{
 		[]int{6},
 		[]int{5},
+		[]int{4},
+		[]int{3},
+	}
+	result := levelOrderBottom(tree)
+
+	if !verify(target, result) {
+		t.Errorf("expect %+v, got: %+v", target, result)
+	}
+}
+
+func TestLevelOrderBottomVI(t *testing.T) {
+	tree := &TreeNode{
+		Val: 3,
+		Left: &TreeNode{
+			Val: 4,
+		},
+	}
+
+	target := [][]int{
 		[]int{4},
 		[]int{3},
 	}

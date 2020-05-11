@@ -11,15 +11,19 @@ type TreeNode struct {
 }
 
 func levelOrderBottom(root *TreeNode) [][]int {
+	if root == nil {
+		return [][]int{}
+	}
+
 	result := [][]int{}
 	result = levelOrderBottomImpl(root, 0, result)
 
-	revertedResult := make([][]int, len(result))
+	// revert result
 	resultSize := len(result) - 1
-	for i := 0; i <= resultSize; i++ {
-		revertedResult[i] = result[resultSize-i]
+	for i := 0; i <= resultSize/2; i++ {
+		result[i], result[resultSize-i] = result[resultSize-i], result[i]
 	}
-	return revertedResult
+	return result
 }
 
 func levelOrderBottomImpl(root *TreeNode, level int, result [][]int) [][]int {
