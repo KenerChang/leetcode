@@ -16,55 +16,49 @@ type TreeNode struct {
 }
 
 func sortedListToBST(head *ListNode) *TreeNode {
-	curNode := head
-	nums := []int{}
-	for curNode != nil {
-		nums = append(nums, curNode.Val)
-		curNode = curNode.Next
-	}
-	// fmt.Printf("nums: %+v\n", nums)
-	return sortedListToBSTImpl(nums)
-}
-
-func sortedListToBSTImpl(nums []int) *TreeNode {
-	if len(nums) == 0 {
+	if head == nil {
 		return nil
 	}
 
-	if len(nums) == 1 {
+	curNode := head
+	nodeCount := 0
+	for curNode != nil {
+		nodeCount++
+		curNode = curNode.Next
+	}
+
+	return sortedListToBSTImpl(head, nodeCount)
+}
+
+func sortedListToBSTImpl(start *ListNode, nodeCount int) *TreeNode {
+	if start == nil || nodeCount == 0 {
+		return nil
+	}
+
+	if nodeCount == 1 {
 		return &TreeNode{
-			Val: nums[0],
+			Val: start.Val,
 		}
 	}
 
-	if len(nums) == 2 {
-		return &TreeNode{
-			Val: nums[1],
-			Left: &TreeNode{
-				Val: nums[0],
-			},
+	idx := 0
+	middle := nodeCount / 2
+	curNode := start
+
+	var tree *TreeNode
+	for idx <= middle+1 && curNode != nil {
+		if idx == middle {
+			tree = &TreeNode{
+				Val:  curNode.Val,
+				Left: sortedListToBSTImpl(start, middle),
+			}
 		}
-	}
 
-	if len(nums) == 3 {
-		return &TreeNode{
-			Val: nums[1],
-			Left: &TreeNode{
-				Val: nums[0],
-			},
-			Right: &TreeNode{
-				Val: nums[2],
-			},
+		if idx == middle+1 {
+			tree.Right = sortedListToBSTImpl(curNode, nodeCount-middle-1)
 		}
+		idx++
+		curNode = curNode.Next
 	}
-
-	rootIdx := len(nums) / 2
-
-	tree := &TreeNode{
-		Val:   nums[rootIdx],
-		Left:  sortedListToBSTImpl(nums[0:rootIdx]),
-		Right: sortedListToBSTImpl(nums[rootIdx+1:]),
-	}
-
 	return tree
 }
