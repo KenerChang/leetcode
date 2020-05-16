@@ -67,4 +67,5 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0109](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0109/golang) |        |      |
 | [0110](https://leetcode.com/problems/balanced-binary-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0110/golang) |        |      |
 | [0111](https://leetcode.com/problems/minimum-depth-of-binary-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0111/golang) |        |      |
+| [0112](https://leetcode.com/problems/path-sum/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0112/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
