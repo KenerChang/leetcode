@@ -12,7 +12,12 @@ type TreeNode struct {
 }
 
 func pathSum(root *TreeNode, sum int) [][]int {
-	resultsStr := pathSumImpl(root, sum, []string{}, "")
+	resultsEncodedStr := pathSumImpl(root, sum, "", "")
+	if resultsEncodedStr == "" {
+		return [][]int{}
+	}
+
+	resultsStr := strings.Split(resultsEncodedStr, "|")
 
 	results := make([][]int, len(resultsStr))
 	for i, resultStr := range resultsStr {
@@ -28,7 +33,7 @@ func pathSum(root *TreeNode, sum int) [][]int {
 	return results
 }
 
-func pathSumImpl(root *TreeNode, sum int, results []string, path string) []string {
+func pathSumImpl(root *TreeNode, sum int, results string, path string) string {
 	if root == nil {
 		return results
 	}
@@ -41,7 +46,11 @@ func pathSumImpl(root *TreeNode, sum int, results []string, path string) []strin
 
 	if root.Left == nil && root.Right == nil && root.Val == sum {
 
-		results = append(results, path)
+		if results == "" {
+			results = path
+		} else {
+			results += "|" + path
+		}
 		return results
 	}
 
