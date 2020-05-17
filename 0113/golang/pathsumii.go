@@ -1,5 +1,10 @@
 package pathsumii
 
+import (
+	"strconv"
+	"strings"
+)
+
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
@@ -7,28 +12,41 @@ type TreeNode struct {
 }
 
 func pathSum(root *TreeNode, sum int) [][]int {
-	return pathSumImpl(root, sum, [][]int{}, []int{})
+	resultsStr := pathSumImpl(root, sum, []string{}, "")
+
+	results := make([][]int, len(resultsStr))
+	for i, resultStr := range resultsStr {
+		nums := strings.Split(resultStr, ",")
+
+		result := make([]int, len(nums))
+		for j, numStr := range nums {
+			num, _ := strconv.Atoi(numStr)
+			result[j] = num
+		}
+		results[i] = result
+	}
+	return results
 }
 
-func pathSumImpl(root *TreeNode, sum int, results [][]int, path []int) [][]int {
+func pathSumImpl(root *TreeNode, sum int, results []string, path string) []string {
 	if root == nil {
 		return results
 	}
 
+	if path == "" {
+		path = strconv.Itoa(root.Val)
+	} else {
+		path += "," + strconv.Itoa(root.Val)
+	}
+
 	if root.Left == nil && root.Right == nil && root.Val == sum {
-		path = append(path, root.Val)
 
 		results = append(results, path)
 		return results
 	}
 
 	remain := sum - root.Val
-	copiedPath := append([]int{}, path...)
-	copiedPath = append(copiedPath, root.Val)
-	results = pathSumImpl(root.Left, remain, results, copiedPath)
-
-	copiedPath = append([]int{}, path...)
-	copiedPath = append(copiedPath, root.Val)
-	results = pathSumImpl(root.Right, remain, results, copiedPath)
+	results = pathSumImpl(root.Left, remain, results, path)
+	results = pathSumImpl(root.Right, remain, results, path)
 	return results
 }
