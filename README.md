@@ -70,4 +70,5 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0112](https://leetcode.com/problems/path-sum/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0112/golang) |        |      |
 | [0113](https://leetcode.com/problems/path-sum-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0113/golang) |        |      |
 | [0114](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0114/golang) |        |      |
+| [0116](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0116/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
