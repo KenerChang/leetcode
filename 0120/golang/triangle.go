@@ -9,34 +9,20 @@ func minimumTotal(triangle [][]int) int {
 		return 0
 	}
 
-	levelCache := map[int64]int{}
-
-	return minimumTotalImpl(triangle, 0, 0, levelCache)
-}
-
-func minimumTotalImpl(triangle [][]int, xshift, yshift int, levelCache map[int64]int) int {
-	if yshift >= len(triangle) {
-		return 0
+	if len(triangle) == 1 {
+		return triangle[0][0]
 	}
 
-	key := int64(xshift)<<32 + int64(yshift)
-	if minPath, found := levelCache[key]; found {
-		return minPath
+	for rowIdx := len(triangle) - 2; rowIdx >= 0; rowIdx-- {
+		for columnIdx := 0; columnIdx <= rowIdx; columnIdx++ {
+			min := triangle[rowIdx+1][columnIdx]
+			if triangle[rowIdx+1][columnIdx+1] < min {
+				min = triangle[rowIdx+1][columnIdx+1]
+			}
+
+			triangle[rowIdx][columnIdx] = triangle[rowIdx][columnIdx] + min
+		}
 	}
 
-	leftMinPath := minimumTotalImpl(triangle, xshift, yshift+1, levelCache)
-	rightMinPath := minimumTotalImpl(triangle, xshift+1, yshift+1, levelCache)
-
-	minPath := triangle[yshift][xshift] + min(leftMinPath, rightMinPath)
-
-	levelCache[key] = minPath
-
-	return minPath
-}
-
-func min(num1, num2 int) int {
-	if num1 <= num2 {
-		return num1
-	}
-	return num2
+	return triangle[0][0]
 }

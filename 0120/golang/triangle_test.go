@@ -62,3 +62,19 @@ func TestMinimumTotalIV(t *testing.T) {
 		t.Errorf("expect: %d, got: %d", target, result)
 	}
 }
+
+func TestMinimumTotalV(t *testing.T) {
+	tri := [][]int{
+		[]int{2},
+		[]int{3, 0},
+		[]int{6, 5, 7},
+		[]int{4, 1, 8, 3},
+	}
+	target := 8
+
+	result := minimumTotal(tri)
+
+	if target != result {
+		t.Errorf("expect: %d, got: %d", target, result)
+	}
+}
