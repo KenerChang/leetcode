@@ -50,17 +50,14 @@ func isAlphanumeric(charCode int) bool {
 		return true
 	}
 
-	if charCode < 65 {
-		return false
+	if charCode >= 65 && charCode <= 90 {
+		// A~Z
+		return true
 	}
 
-	if charCode >= 91 && charCode <= 96 {
-		return false
+	if charCode >= 97 && charCode <= 122 {
+		return true
 	}
 
-	if charCode > 122 {
-		return false
-	}
-
-	return true
+	return false
 }
