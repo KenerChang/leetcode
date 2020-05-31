@@ -79,4 +79,5 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0122/golang) |        |      |
 | [0125](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0125/golang) |        |      |
 | [0127](https://leetcode.com/problems/word-ladder/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0127/golang) |        |      |
+| [0129](https://leetcode.com/problems/sum-root-to-leaf-numbers/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0129/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
