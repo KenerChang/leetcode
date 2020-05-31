@@ -9,13 +9,12 @@ var X byte = byte('X')
 var O byte = byte('O')
 
 func solve(board [][]byte) {
-	if len(board) == 0 {
+	if board == nil || len(board) == 0 {
 		return
 	}
 
 	xdimension := len(board)
 	ydimension := len(board[0])
-	visitedMap := map[string]bool{}
 
 	for x, row := range board {
 		for y, cell := range row {
@@ -23,42 +22,30 @@ func solve(board [][]byte) {
 				continue
 			}
 
-			key := strconv.Itoa(x) + "," + strconv.Itoa(y)
-			// key := int64(x) << 32 + y
-			if _, visited := visitedMap[key]; visited {
+			if !isBoarder(x, y, xdimension, ydimension) {
 				continue
 			}
 
-			if isBoarder(x, y, xdimension, ydimension) {
-				visitedMap[key] = true
+			if cell != O {
 				continue
 			}
 
 			// handle O which has not handled
 			flipCandidates := getFlipCandidates(board, x, y, xdimension, ydimension)
 
-			shouldFlip := true
 			for _, candidate := range flipCandidates {
 				xposition, yposition := candidate[0], candidate[1]
-
-				if isBoarder(xposition, yposition, xdimension, ydimension) {
-					shouldFlip = false
-					break
-				}
-
-				cellKey := strconv.Itoa(xposition) + "," + strconv.Itoa(yposition)
-				if _, visited := visitedMap[cellKey]; visited {
-					shouldFlip = false
-					break
-				}
-
-				visitedMap[cellKey] = true
+				board[xposition][yposition] = '#'
 			}
+		}
+	}
 
-			if shouldFlip {
-				for _, candidate := range flipCandidates {
-					board[candidate[0]][candidate[1]] = X
-				}
+	for x, row := range board {
+		for y, cell := range row {
+			if cell == '#' {
+				board[x][y] = O
+			} else if cell == O {
+				board[x][y] = X
 			}
 		}
 	}
