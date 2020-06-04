@@ -2,41 +2,30 @@ package gasstation
 
 func canCompleteCircuit(gas []int, cost []int) int {
 	size := len(gas)
-	accumlated := 0
-	consumption := 0
-	candidates := []int{}
-	for i, fill := range gas {
-		accumlated += fill
-		consumption += cost[i]
+	idx := 0
+	sum := 0
 
-		if fill >= cost[i] {
-			candidates = append(candidates, i)
+	for idx < size {
+		currIdx := idx
+		thisIdxSum := 0
+
+		for idx < size {
+			thisIdxSum += gas[idx] - cost[idx]
+			idx++
+
+			if thisIdxSum < 0 {
+				// condition break
+				break
+			}
 		}
-	}
 
-	if accumlated < consumption {
-		return -1
-	}
-
-	for _, candidate := range candidates {
-		if canComplete(candidate, size, gas, cost) {
-			return candidate
+		sum += thisIdxSum
+		if sum < 0 {
+			// sum of 0 to i-1 was negative
+			// keep test if i can complete
+			continue
 		}
+		return currIdx
 	}
-
 	return -1
-}
-
-func canComplete(startFrom, size int, gas []int, cost []int) bool {
-	accumlated := 0
-	for i := startFrom; i < startFrom+size; i++ {
-		idx := i % size
-		accumlated += gas[idx]
-		accumlated -= cost[idx]
-
-		if accumlated < 0 {
-			return false
-		}
-	}
-	return true
 }
