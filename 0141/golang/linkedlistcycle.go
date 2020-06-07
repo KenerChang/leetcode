@@ -9,15 +9,14 @@ func hasCycle(head *ListNode) bool {
 	if head == nil {
 		return false
 	}
-	visited := map[*ListNode]bool{}
-	currNode := head
-
-	for currNode != nil {
-		if _, found := visited[currNode]; found {
-			return true
+	slowP := head
+	fastP := head.Next
+	for slowP != fastP {
+		if fastP == nil || fastP.Next == nil {
+			return false
 		}
-		visited[currNode] = true
-		currNode = currNode.Next
+		slowP = slowP.Next
+		fastP = fastP.Next.Next
 	}
-	return false
+	return true
 }
