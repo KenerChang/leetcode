@@ -90,4 +90,5 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0139](https://leetcode.com/problems/word-break/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0139/golang) |        |      |
 | [0141](https://leetcode.com/problems/linked-list-cycle/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0141/golang) |        |      |
 | [0142](https://leetcode.com/problems/linked-list-cycle-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0142/golang) |        |      |
+| [0143](https://leetcode.com/problems/reorder-list/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0143/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
