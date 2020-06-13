@@ -93,4 +93,5 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0143](https://leetcode.com/problems/reorder-list/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0143/golang) |        |      |
 | [0144](https://leetcode.com/problems/binary-tree-preorder-traversal/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0144/golang) |        |      |
 | [0145](https://leetcode.com/problems/binary-tree-postorder-traversal/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0145/golang) |        |      |
+| [0146](https://leetcode.com/problems/lru-cache/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0146/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
