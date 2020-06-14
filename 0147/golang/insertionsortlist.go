@@ -1,9 +1,5 @@
 package insertionsortlist
 
-import (
-	"fmt"
-)
-
 type ListNode struct {
 	Val  int
 	Next *ListNode
