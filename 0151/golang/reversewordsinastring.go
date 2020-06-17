@@ -8,22 +8,12 @@ func reverseWords(s string) string {
 	if s == "" {
 		return ""
 	}
-	tokens := strings.Split(s, " ")
+	tokens := strings.Fields(s)
 
-	results := []string{}
-	for _, token := range tokens {
-		if token != "" {
-			results = append(results, token)
-		}
+	// revert
+	for i, j := 0, len(tokens)-1; j > i; i, j = i+1, j-1 {
+		tokens[i], tokens[j] = tokens[j], tokens[i]
 	}
 
-	result := ""
-	for i := len(results) - 1; i >= 0; i-- {
-		result += results[i] + " "
-	}
-
-	if len(result) > 0 {
-		result = result[0 : len(result)-1]
-	}
-	return result
+	return strings.Join(tokens, " ")
 }
