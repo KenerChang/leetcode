@@ -93,3 +93,13 @@ func TestMaxProductVIIII(t *testing.T) {
 		t.Errorf("expect %d, got %d", target, result)
 	}
 }
+
+func TestMaxProductX(t *testing.T) {
+	nums := []int{5, -100, -2, -3, 10}
+	target := 1000
+
+	result := maxProduct(nums)
+	if target != result {
+		t.Errorf("expect %d, got %d", target, result)
+	}
+}

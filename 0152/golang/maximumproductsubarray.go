@@ -9,20 +9,32 @@ func maxProduct(nums []int) int {
 		return nums[0]
 	}
 
-	var max, c int
-	for i, num := range nums {
-		c = num
-		if c > max {
-			max = c
+	var maxProduct, cmax, cmin int = nums[0], nums[0], nums[0]
+
+	for _, num := range nums[1:] {
+		if num < 0 {
+			cmax, cmin = cmin, cmax
 		}
 
-		for j := i + 1; j < len(nums); j++ {
-			c = c * nums[j]
-			if c > max {
-				max = c
-			}
+		cmax = max(cmax*num, num)
+		cmin = min(cmin*num, num)
+		if cmax > maxProduct {
+			maxProduct = cmax
 		}
 	}
+	return maxProduct
+}
 
-	return max
+func max(a, b int) int {
+	if a >= b {
+		return a
+	}
+	return b
+}
+
+func min(a, b int) int {
+	if a <= b {
+		return a
+	}
+	return b
 }
