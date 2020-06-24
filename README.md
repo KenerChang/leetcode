@@ -102,4 +102,5 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0153/golang) |        |      |
 | [0155](https://leetcode.com/problems/min-stack/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0155/golang) |        |      |
 | [0160](https://leetcode.com/problems/intersection-of-two-linked-lists/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0160/golang) |        |      |
+| [0162](https://leetcode.com/problems/find-peak-element/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0162/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
