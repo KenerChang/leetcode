@@ -105,4 +105,5 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0162](https://leetcode.com/problems/find-peak-element/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0162/golang) |        |      |
 | [0164](https://leetcode.com/problems/maximum-gap/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0164/golang) |        |      |
 | [0165](https://leetcode.com/problems/compare-version-numbers/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0165/golang) |        |      |
+| [0166](https://leetcode.com/problems/fraction-to-recurring-decimal/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0166/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
