@@ -1,46 +1,39 @@
 package dungeongame
 
-import (
-	// "fmt"
-	"math"
-	"strconv"
-)
+// import (
+// 	// "fmt"
+// 	"math"
+// 	// "strconv"
+// )
 
 func calculateMinimumHP(dungeon [][]int) int {
-	cache := map[string]int{}
-	neededHP := calculateMinimumHPImpl(dungeon, 0, 0, cache)
-
-	if neededHP <= 0 {
-		neededHP = -neededHP + 1
-	} else {
-		neededHP = 1
-	}
-	return neededHP
-}
-
-func calculateMinimumHPImpl(dungeon [][]int, rowIdx, colIdx int, cache map[string]int) int {
 	endRow, endCol := len(dungeon)-1, len(dungeon[0])-1
-	if rowIdx == endRow && colIdx == endCol {
-		return min(0, dungeon[rowIdx][colIdx])
+
+	var minNum int
+	for i := endRow; i >= 0; i-- {
+		for j := endCol; j >= 0; j-- {
+			if i == endRow && j == endCol {
+				minNum = min(0, dungeon[i][j])
+			} else if i == endRow {
+				minNum = min(0, dungeon[i][j+1]+dungeon[i][j])
+			} else if j == endCol {
+				minNum = min(0, dungeon[i+1][j]+dungeon[i][j])
+			} else {
+				minNum = max(dungeon[i+1][j], dungeon[i][j+1])
+				minNum = dungeon[i][j] + minNum
+				minNum = min(0, minNum)
+			}
+
+			dungeon[i][j] = minNum
+		}
 	}
 
-	key := strconv.Itoa(rowIdx) + "," + strconv.Itoa(colIdx)
-	if minNum, found := cache[key]; found {
-		return minNum
+	minNum = dungeon[0][0]
+	if minNum <= 0 {
+		minNum = -minNum + 1
+	} else {
+		minNum = 1
 	}
-
-	var minRight, minDown int = math.MinInt32, math.MinInt32
-	if rowIdx < endRow {
-		minDown = calculateMinimumHPImpl(dungeon, rowIdx+1, colIdx, cache)
-	}
-
-	if colIdx < endCol {
-		minRight = calculateMinimumHPImpl(dungeon, rowIdx, colIdx+1, cache)
-	}
-
-	minNum := max(minDown, minRight)
-	minNum = min(0, dungeon[rowIdx][colIdx]+minNum)
-	cache[key] = minNum
 
 	return minNum
 }
