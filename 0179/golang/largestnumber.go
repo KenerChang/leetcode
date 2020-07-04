@@ -17,20 +17,7 @@ func (ss SortableStrings) Swap(i, j int) {
 }
 
 func (ss SortableStrings) Less(i, j int) bool {
-	s1 := ss[i] + ss[j]
-	s2 := ss[j] + ss[i]
-
-	var code1, code2 int
-	for idx, char1 := range s1 {
-		code1, code2 = int(char1), int(s2[idx])
-		if code1 > code2 {
-			return false
-		} else if code1 < code2 {
-			return true
-		}
-	}
-
-	return false
+	return ss[i]+ss[j] < ss[j]+ss[i]
 }
 
 func largestNumber(nums []int) string {
