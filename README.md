@@ -115,4 +115,5 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0174](https://leetcode.com/problems/dungeon-game/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0174/golang) |        |      |
 | [0179](https://leetcode.com/problems/largest-number/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0179/golang) |        |      |
 | [0188](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0188/golang) |        |      |
+| [0189](https://leetcode.com/problems/rotate-array/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0189/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
