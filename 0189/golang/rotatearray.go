@@ -5,16 +5,24 @@ package rotatearray
 // )
 
 func rotate(nums []int, k int) {
-	nLen := len(nums)
-	realK := k % nLen
-	if realK == 0 {
+	k = k % len(nums)
+
+	if k == 0 {
 		return
 	}
 
-	start := nLen - realK
-	target := append(nums[start:nLen], nums[0:start]...)
+	nLen := len(nums)
+	last := nLen - 1
 
-	for i := 0; i < nLen; i++ {
-		nums[i] = target[i]
+	reverse(nums, 0, last)
+	reverse(nums, k, last)
+	reverse(nums, 0, k-1)
+}
+
+func reverse(nums []int, start, end int) {
+	for start < end {
+		nums[start], nums[end] = nums[end], nums[start]
+		start++
+		end--
 	}
 }
