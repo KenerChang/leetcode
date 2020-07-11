@@ -119,4 +119,5 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0190](https://leetcode.com/problems/reverse-bits/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0190/golang) |        |      |
 | [0191](https://leetcode.com/problems/number-of-1-bits/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0191/golang) |        |      |
 | [0192](https://leetcode.com/problems/word-frequency/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0192/bash) |        |      |
+| [0193](https://leetcode.com/problems/valid-phone-numbers/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0193/bash) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
