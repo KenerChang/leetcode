@@ -14,7 +14,7 @@ func hammingWeight(num uint32) int {
 	}
 
 	var count int
-	for i := 0; i < 32; i++ {
+	for num > 0 {
 		count += int(num % 2)
 		num = num >> 1
 	}
