@@ -14,3 +14,6 @@ END {
   print s
 }
 ' file.txt
+
+# or use sed
+sed -n 10p file.txt
