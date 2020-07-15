@@ -3,7 +3,7 @@ awk '
 {
     for (i = 1; i <= NF; i++) {
         if(NR == 1) {
-            [i] = $i;
+            s[i] = $i;
         } else {
             s[i] = s[i] " " $i;
         }
