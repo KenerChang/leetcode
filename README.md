@@ -122,4 +122,5 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0193](https://leetcode.com/problems/valid-phone-numbers/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0193/bash) |        |      |
 | [0194](https://leetcode.com/problems/transpose-file/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0194/bash) |        |      |
 | [0195](https://leetcode.com/problems/tenth-line/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0195/bash) |        |      |
+| [0198](https://leetcode.com/problems/house-robber/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0198/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
