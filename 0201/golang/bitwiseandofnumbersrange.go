@@ -9,33 +9,19 @@ func rangeBitwiseAnd(m int, n int) int {
 		return m
 	}
 
-	maxPowerOfM := getMaxPowerOfTwo(m)
-	maxPowerOfN := getMaxPowerOfTwo(n)
+	diff := n - m
+	maxPowerOfDiff := getMaxPowerOfTwo(diff) + 1
+	n = n >> maxPowerOfDiff << maxPowerOfDiff
+	m = m >> maxPowerOfDiff << maxPowerOfDiff
 
-	if maxPowerOfM != maxPowerOfN {
-		return 0
-	}
-
-	maxPowerOfDiff := getMaxPowerOfTwo(n - m)
-	result := 1 << maxPowerOfM
-	for power := maxPowerOfM - 1; power > maxPowerOfDiff; power-- {
-		divider := 1 << power
-		if m&divider > 0 && n&divider > 0 {
-			result += divider
-		}
-	}
-	return result
+	return n & m
 }
 
 func getMaxPowerOfTwo(num int) int {
-	maxPower := 0
 	power := 0
-	for num > 0 {
-		if num%2 > 0 {
-			maxPower = power
-		}
+	for num >= 2 {
 		power++
-		num = num / 2
+		num = num >> 1
 	}
-	return maxPower
+	return power
 }

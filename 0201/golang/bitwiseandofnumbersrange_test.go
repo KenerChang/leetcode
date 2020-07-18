@@ -66,3 +66,12 @@ func TestRangeBitwiseAndVII(t *testing.T) {
 		t.Errorf("expect %d, got %d", target, result)
 	}
 }
+
+func TestRangeBitwiseAndVIII(t *testing.T) {
+	target := 0
+	result := rangeBitwiseAnd(3, 6)
+
+	if target != result {
+		t.Errorf("expect %d, got %d", target, result)
+	}
+}
