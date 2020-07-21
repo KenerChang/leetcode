@@ -129,4 +129,5 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0202](https://leetcode.com/problems/happy-number/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0202/golang) |        |      |
 | [0203](https://leetcode.com/problems/remove-linked-list-elements/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0203/golang) |        |      |
 | [0204](https://leetcode.com/problems/count-primes/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0204/golang) |        |      |
+| [0205](https://leetcode.com/problems/isomorphic-strings/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0205/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
