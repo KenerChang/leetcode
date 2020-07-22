@@ -1,7 +1,7 @@
 package courseschedule
 
 import (
-	"fmt"
+// "fmt"
 )
 
 func canFinish(numCourses int, prerequisites [][]int) bool {
@@ -14,15 +14,11 @@ func canFinish(numCourses int, prerequisites [][]int) bool {
 	for _, prerequisite := range prerequisites {
 		course, need := prerequisite[0], prerequisite[1]
 		adjacencyLists[course] = append(adjacencyLists[course], need)
-	}
 
-	for i := 0; i < numCourses; i++ {
-		if hasCycle(i, adjacencyLists, map[int]bool{}) {
-			fmt.Printf("course %d has cycle %v\n", i, adjacencyLists[i])
+		if hasCycle(course, adjacencyLists, map[int]bool{}) {
 			return false
 		}
 	}
-
 	return true
 }
 
