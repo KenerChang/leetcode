@@ -130,4 +130,6 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0203](https://leetcode.com/problems/remove-linked-list-elements/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0203/golang) |        |      |
 | [0204](https://leetcode.com/problems/count-primes/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0204/golang) |        |      |
 | [0205](https://leetcode.com/problems/isomorphic-strings/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0205/golang) |        |      |
-| [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
+| [0206](https://leetcode.com/problems/reverse-linked-list/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0206/golang) |        |      |
+| [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
