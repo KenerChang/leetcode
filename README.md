@@ -134,5 +134,6 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0207](https://leetcode.com/problems/course-schedule/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0207/golang) |        |      |
 | [0208](https://leetcode.com/problems/implement-trie-prefix-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0208/golang) |        |      |
 | [0209](https://leetcode.com/problems/minimum-size-subarray-sum/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0209/golang) |        |      |
+| [0210](https://leetcode.com/problems/course-schedule-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0210/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
