@@ -12,30 +12,32 @@ func findWords(board [][]byte, words []string) []string {
 		return []string{}
 	}
 
-	charPositions := make([][]int64, 26)
-	for rIdx, row := range board {
-		for cIdx, char := range row {
-			charIdx := char - a
-			pos := encodePos(rIdx, cIdx)
-			charPositions[charIdx] = append(charPositions[charIdx], pos)
-		}
-	}
-
-	results := []string{}
-	for _, word := range words {
+	charPositions := make([][]int, 26)
+	for idx, word := range words {
 		if word == "" {
 			continue
 		}
 
 		charIdx := word[0] - a
-		if len(charPositions[charIdx]) == 0 {
-			continue
-		}
+		charPositions[charIdx] = append(charPositions[charIdx], idx)
+	}
 
-		for _, pos := range charPositions[charIdx] {
-			if findWordsRecursive(board, word, pos, map[int64]bool{}) {
-				results = append(results, word)
-				break
+	results := []string{}
+	for rIdx, row := range board {
+		for cIdx, char := range row {
+			charIdx := char - a
+			if len(charPositions[charIdx]) == 0 {
+				continue
+			}
+
+			pos := encodePos(rIdx, cIdx)
+			for idx, wordIdx := range charPositions[charIdx] {
+				word := words[wordIdx]
+				if findWordsRecursive(board, word, pos, map[int64]bool{}) {
+					results = append(results, word)
+					charPositions[charIdx] = append(charPositions[charIdx][:idx], charPositions[charIdx][idx+1:]...)
+					continue
+				}
 			}
 		}
 	}
