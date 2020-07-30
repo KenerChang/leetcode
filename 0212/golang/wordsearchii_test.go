@@ -73,3 +73,17 @@ func TestFindWordsIII(t *testing.T) {
 		t.Errorf("expect %v, got %v", target, result)
 	}
 }
+
+func TestFindWordsIV(t *testing.T) {
+	// ["a","b","c"],["a","e","d"],["a","f","g"]
+	board := [][]byte{
+		[]byte{'a'},
+	}
+	words := []string{"a"}
+
+	target := []string{"a"}
+	result := findWords(board, words)
+	if !verify(target, result) {
+		t.Errorf("expect %v, got %v", target, result)
+	}
+}

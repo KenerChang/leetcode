@@ -1,8 +1,8 @@
 package wordsearchii
 
 import (
-	// "fmt"
-	"math"
+// "fmt"
+// "math"
 )
 
 const a = 'a'
@@ -30,10 +30,9 @@ func findWords(board [][]byte, words []string) []string {
 				continue
 			}
 
-			pos := encodePos(rIdx, cIdx)
 			for idx, wordIdx := range charPositions[charIdx] {
 				word := words[wordIdx]
-				if findWordsRecursive(board, word, pos, map[int64]bool{}) {
+				if findWordsRecursive(board, word, rIdx, cIdx) {
 					results = append(results, word)
 					charPositions[charIdx] = append(charPositions[charIdx][:idx], charPositions[charIdx][idx+1:]...)
 					continue
@@ -44,65 +43,42 @@ func findWords(board [][]byte, words []string) []string {
 	return results
 }
 
-func findWordsRecursive(board [][]byte, word string, searchFrom int64, visited map[int64]bool) bool {
+func findWordsRecursive(board [][]byte, word string, rIdx, cIdx int) bool {
 	// fmt.Printf("word: %s, searchFrom: %d\n", word, searchFrom)
 	// fmt.Printf("visited: %+v\n", visited)
-
-	if _, found := visited[searchFrom]; found {
-		return false
-	}
-
-	if len(word) == 1 {
+	if word == "" {
 		return true
 	}
 
-	visited[searchFrom] = true
-
-	row, col := decodePos(searchFrom)
-	maxRow := len(board) - 1
-	maxCol := len(board[0]) - 1
-
-	if row < maxRow && board[row+1][col] == word[1] {
-		pos := encodePos(row+1, col)
-		if findWordsRecursive(board, word[1:], pos, visited) {
-			return true
-		}
+	if rIdx < 0 || cIdx < 0 || rIdx >= len(board) || cIdx >= len(board[0]) {
+		return false
 	}
 
-	if row > 0 && board[row-1][col] == word[1] {
-		pos := encodePos(row-1, col)
-		if findWordsRecursive(board, word[1:], pos, visited) {
-			return true
-		}
+	if board[rIdx][cIdx] == '#' || word[0] != board[rIdx][cIdx] {
+		return false
 	}
 
-	if col < maxCol && board[row][col+1] == word[1] {
-		pos := encodePos(row, col+1)
-		if findWordsRecursive(board, word[1:], pos, visited) {
-			return true
-		}
+	c := board[rIdx][cIdx]
+	board[rIdx][cIdx] = '#'
+	defer func() {
+		board[rIdx][cIdx] = c
+	}()
+
+	if findWordsRecursive(board, word[1:], rIdx+1, cIdx) {
+		return true
 	}
 
-	if col > 0 && board[row][col-1] == word[1] {
-		pos := encodePos(row, col-1)
-		if findWordsRecursive(board, word[1:], pos, visited) {
-			return true
-		}
+	if findWordsRecursive(board, word[1:], rIdx-1, cIdx) {
+		return true
 	}
 
-	delete(visited, searchFrom)
+	if findWordsRecursive(board, word[1:], rIdx, cIdx+1) {
+		return true
+	}
+
+	if findWordsRecursive(board, word[1:], rIdx, cIdx-1) {
+		return true
+	}
+
 	return false
-}
-
-func encodePos(row, col int) int64 {
-	result := int64(row)
-	result = result << 32
-	result += int64(col)
-	return result
-}
-
-func decodePos(pos int64) (row, col int) {
-	col = int(pos & math.MaxInt32)
-	row = int(pos >> 32)
-	return
 }
