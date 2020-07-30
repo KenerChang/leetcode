@@ -7,78 +7,66 @@ import (
 
 const a = 'a'
 
+type Trie struct {
+	word     string
+	children [26]*Trie
+}
+
 func findWords(board [][]byte, words []string) []string {
 	if len(words) == 0 {
 		return []string{}
 	}
 
-	charPositions := make([][]int, 26)
-	for idx, word := range words {
-		if word == "" {
-			continue
-		}
+	root := &Trie{}
+	for _, word := range words {
+		node := root
+		for _, char := range word {
+			charIdx := char - a
+			if node.children[charIdx] == nil {
+				node.children[charIdx] = &Trie{}
+			}
 
-		charIdx := word[0] - a
-		charPositions[charIdx] = append(charPositions[charIdx], idx)
+			node = node.children[charIdx]
+		}
+		node.word = word
 	}
 
 	results := []string{}
-	for rIdx, row := range board {
-		for cIdx, char := range row {
-			charIdx := char - a
-			if len(charPositions[charIdx]) == 0 {
-				continue
-			}
-
-			for idx, wordIdx := range charPositions[charIdx] {
-				word := words[wordIdx]
-				if findWordsRecursive(board, word, rIdx, cIdx) {
-					results = append(results, word)
-					charPositions[charIdx] = append(charPositions[charIdx][:idx], charPositions[charIdx][idx+1:]...)
-					continue
-				}
-			}
+	for rIdx := 0; rIdx < len(board); rIdx++ {
+		for cIdx := 0; cIdx < len(board[rIdx]); cIdx++ {
+			findWordsRecursive(board, root, rIdx, cIdx, &results)
 		}
 	}
 	return results
 }
 
-func findWordsRecursive(board [][]byte, word string, rIdx, cIdx int) bool {
+func findWordsRecursive(board [][]byte, root *Trie, rIdx, cIdx int, results *[]string) {
 	// fmt.Printf("word: %s, searchFrom: %d\n", word, searchFrom)
 	// fmt.Printf("visited: %+v\n", visited)
-	if word == "" {
-		return true
-	}
 
 	if rIdx < 0 || cIdx < 0 || rIdx >= len(board) || cIdx >= len(board[0]) {
-		return false
-	}
-
-	if board[rIdx][cIdx] == '#' || word[0] != board[rIdx][cIdx] {
-		return false
+		return
 	}
 
 	c := board[rIdx][cIdx]
+	charIdx := c - a
+	if board[rIdx][cIdx] == '#' || root.children[charIdx] == nil {
+		return
+	}
+	node := root.children[charIdx]
+
+	if node.word != "" {
+		// reach bottom
+		*results = append(*results, node.word)
+		node.word = ""
+	}
+
 	board[rIdx][cIdx] = '#'
-	defer func() {
-		board[rIdx][cIdx] = c
-	}()
+	findWordsRecursive(board, node, rIdx+1, cIdx, results)
+	findWordsRecursive(board, node, rIdx-1, cIdx, results)
+	findWordsRecursive(board, node, rIdx, cIdx+1, results)
+	findWordsRecursive(board, node, rIdx, cIdx-1, results)
+	board[rIdx][cIdx] = c
 
-	if findWordsRecursive(board, word[1:], rIdx+1, cIdx) {
-		return true
-	}
-
-	if findWordsRecursive(board, word[1:], rIdx-1, cIdx) {
-		return true
-	}
-
-	if findWordsRecursive(board, word[1:], rIdx, cIdx+1) {
-		return true
-	}
-
-	if findWordsRecursive(board, word[1:], rIdx, cIdx-1) {
-		return true
-	}
-
-	return false
+	return
 }
