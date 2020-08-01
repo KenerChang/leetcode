@@ -138,5 +138,6 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0211](https://leetcode.com/problems/add-and-search-word-data-structure-design/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0211/golang) |        |      |
 | [0212](https://leetcode.com/problems/word-search-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0212/golang) |        |      |
 | [0213](https://leetcode.com/problems/house-robber-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0213/golang) |        |      |
+| [0214](https://leetcode.com/problems/shortest-palindrome/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0214/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
