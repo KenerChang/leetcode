@@ -1,15 +1,46 @@
 package kthlargestelementinanarray
 
 import (
-	// "fmt"
-	"sort"
+// "fmt"
+// "sort"
 )
 
 func findKthLargest(nums []int, k int) int {
-	if len(nums) == 0 || k > len(nums) {
-		return -1
-	}
-	sort.Ints(nums)
+	return kSelect(nums, 0, len(nums)-1, k)
+}
 
-	return nums[len(nums)-k]
+func kSelect(nums []int, left, right, k int) int {
+	if left == right {
+		return nums[left]
+	}
+
+	boundary := right
+	lp, rp := left, right-1
+
+	for lp <= rp {
+		for lp <= rp && nums[lp] >= nums[boundary] {
+			lp++
+		}
+
+		for lp <= rp && nums[rp] < nums[boundary] {
+			rp--
+		}
+
+		if lp <= rp {
+			nums[lp], nums[rp] = nums[rp], nums[lp]
+			lp++
+			rp--
+		}
+	}
+
+	nums[lp], nums[boundary] = nums[boundary], nums[lp]
+	boundary = lp
+
+	if boundary > k-1 {
+		return kSelect(nums, left, boundary-1, k)
+	} else if boundary < k-1 {
+		return kSelect(nums, boundary+1, right, k)
+	}
+
+	return nums[boundary]
 }

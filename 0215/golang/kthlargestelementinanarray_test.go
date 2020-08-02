@@ -26,17 +26,6 @@ func TestFindKthLargestII(t *testing.T) {
 	}
 }
 
-func TestFindKthLargestIII(t *testing.T) {
-	nums := []int{}
-	k := 1
-	target := -1
-
-	result := findKthLargest(nums, k)
-	if target != result {
-		t.Errorf("expect %d, got %d", target, result)
-	}
-}
-
 func TestFindKthLargestIV(t *testing.T) {
 	nums := []int{1, 1, 1, 1}
 	k := 2
