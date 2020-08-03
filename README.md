@@ -140,5 +140,6 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0213](https://leetcode.com/problems/house-robber-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0213/golang) |        |      |
 | [0214](https://leetcode.com/problems/shortest-palindrome/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0214/golang) |        |      |
 | [0215](https://leetcode.com/problems/kth-largest-element-in-an-array/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0215/golang) |        |      |
+| [0216](https://leetcode.com/problems/combination-sum-iii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0216/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
