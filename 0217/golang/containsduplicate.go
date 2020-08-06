@@ -1,22 +1,16 @@
 package containsduplicate
 
-import (
-	"sort"
-)
+// import (
+// 	"sort"
+// )
 
 func containsDuplicate(nums []int) bool {
-	if len(nums) == 0 {
-		return false
-	}
-
-	sort.Ints(nums)
-	prev := nums[0]
-	for i := 1; i < len(nums); i++ {
-		num := nums[i]
-		if prev == num {
+	cache := map[int]bool{}
+	for _, num := range nums {
+		if _, ok := cache[num]; ok {
 			return true
 		}
-		prev = num
+		cache[num] = true
 	}
 
 	return false
