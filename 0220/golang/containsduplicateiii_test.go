@@ -37,12 +37,3 @@ func TestContainsNearbyAlmostDuplicateIV(t *testing.T) {
 		t.Errorf("expect false, got true")
 	}
 }
-
-func TestContainsNearbyAlmostDuplicateV(t *testing.T) {
-	nums := []int{1, 1}
-	result := containsNearbyAlmostDuplicate(nums, 0, 1)
-
-	if result {
-		t.Errorf("expect false, got true")
-	}
-}
