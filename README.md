@@ -145,5 +145,6 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0219](https://leetcode.com/problems/contains-duplicate-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0219/golang) |        |      |
 | [0220](https://leetcode.com/problems/contains-duplicate-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0220/golang) |        |      |
 | [0221](https://leetcode.com/problems/maximal-square/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0221/golang) |        |      |
+| [0222](https://leetcode.com/problems/count-complete-tree-nodes/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0222/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
