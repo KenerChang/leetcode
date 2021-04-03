@@ -147,5 +147,6 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0221](https://leetcode.com/problems/maximal-square/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0221/golang) |        |      |
 | [0222](https://leetcode.com/problems/count-complete-tree-nodes/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0222/golang) |        |      |
 | [0222](https://leetcode.com/problems/rectangle-area/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0223/golang) |        |      |
+| [0226](https://leetcode.com/problems/invert-binary-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0226/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
