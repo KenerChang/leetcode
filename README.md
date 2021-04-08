@@ -151,5 +151,6 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0227](https://leetcode.com/problems/basic-calculator-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0227/golang) |        |      |
 | [0228](https://leetcode.com/problems/summary-ranges/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0228/golang) |        |      |
 | [0229](https://leetcode.com/problems/majority-element-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0229/golang) |        |      |
+| [0230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0230/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
