@@ -168,6 +168,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0242](https://leetcode.com/problems/valid-anagram/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0242/golang) |        |      |
 | [0243](https://leetcode.com/problems/shortest-word-distance/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0243/golang) |        |      |
 | [0244](https://leetcode.com/problems/shortest-word-distance-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0244/golang) |        |      |
+| [0245](https://leetcode.com/problems/shortest-word-distance-iii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0245/golang) |        |      |
 | [0256](https://leetcode.com/problems/paint-house/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0256/golang) |        |      |
 | [0257](https://leetcode.com/problems/binary-tree-paths/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0257/golang) |        |      |
 | [0258](https://leetcode.com/problems/add-digits/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0258/golang) |        |      |
