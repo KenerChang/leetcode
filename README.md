@@ -170,6 +170,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0244](https://leetcode.com/problems/shortest-word-distance-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0244/golang) |        |      |
 | [0245](https://leetcode.com/problems/shortest-word-distance-iii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0245/golang) |        |      |
 | [0246](https://leetcode.com/problems/strobogrammatic-number/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0246/golang) |        |      |
+| [0247](https://leetcode.com/problems/strobogrammatic-number-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0247/golang) |        |      |
 | [0256](https://leetcode.com/problems/paint-house/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0256/golang) |        |      |
 | [0257](https://leetcode.com/problems/binary-tree-paths/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0257/golang) |        |      |
 | [0258](https://leetcode.com/problems/add-digits/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0258/golang) |        |      |
