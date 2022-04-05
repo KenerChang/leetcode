@@ -183,6 +183,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0258](https://leetcode.com/problems/add-digits/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0258/golang) |        |      |
 | [0259](https://leetcode.com/problems/3sum-smaller/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0259/golang) |        |      |
 | [0260](https://leetcode.com/problems/single-number-iii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0260/golang) |        |      |
+| [0261](https://leetcode.com/problems/graph-valid-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0261/golang) |        |      |
 | [0263](https://leetcode.com/problems/ugly-number/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0263/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
