@@ -187,5 +187,6 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0263](https://leetcode.com/problems/ugly-number/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0263/golang) |        |      |
 | [0264](https://leetcode.com/problems/ugly-number-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0264/golang) |        |      |
 | [0266](https://leetcode.com/problems/palindrome-permutation/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0266/golang) |        |      |
+| [0267](https://leetcode.com/problems/palindrome-permutation-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0267/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
