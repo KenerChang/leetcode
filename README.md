@@ -15,6 +15,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | problem                                                                       |                                 golang                                 | python |   js | java |
 | ----------------------------------------------------------------------------- | :--------------------------------------------------------------------: | -----: | ---: | ---- |
 | [0004](https://leetcode.com/problems/median-of-two-sorted-arrays/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0004/golang) |        |      |
+| [0010](https://leetcode.com/problems/regular-expression-matching/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0010/golang) |        |      |
 | [0039](https://leetcode.com/problems/combination-sum/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0039/golang) |        |      |
 | [0040](https://leetcode.com/problems/combination-sum-ii/)                     | [link](https://github.com/KenerChang/leetcode/tree/master/0040/golang) |        |      |
 | [0043](https://leetcode.com/problems/multiply-strings/)                       | [link](https://github.com/KenerChang/leetcode/tree/master/0043/golang) |        |      |
