@@ -101,6 +101,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0146](https://leetcode.com/problems/lru-cache/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0146/golang) |        |      |
 | [0147](https://leetcode.com/problems/insertion-sort-list/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0147/golang) |        |      |
 | [0148](https://leetcode.com/problems/sort-list/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0148/golang) |        |      |
+| [0149](https://leetcode.com/problems/max-points-on-a-line/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0149/golang) |        |      |
 | [0150](https://leetcode.com/problems/evaluate-reverse-polish-notation/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0150/golang) |        |      |
 | [0151](https://leetcode.com/problems/reverse-words-in-a-string/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0151/golang) |        |      |
 | [0152](https://leetcode.com/problems/maximum-product-subarray/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0152/golang) |        |      |
