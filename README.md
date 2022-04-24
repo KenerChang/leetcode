@@ -201,5 +201,6 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0273](https://leetcode.com/problems/integer-to-english-words/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0273/golang) |        |      |
 | [0274](https://leetcode.com/problems/h-index/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0274/golang) |        |      |
 | [0275](https://leetcode.com/problems/h-index-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0275/golang) |        |      |
+| [0276](https://leetcode.com/problems/paint-fence/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0276/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
