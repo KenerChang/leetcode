@@ -203,5 +203,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0275](https://leetcode.com/problems/h-index-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0275/golang) |        |      |
 | [0276](https://leetcode.com/problems/paint-fence/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0276/golang) |        |      |
 | [0277](https://leetcode.com/problems/find-the-celebrity/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0277/golang) |        |      |
+| [0278](https://leetcode.com/problems/first-bad-version/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0278/golang) |        |      |
+| [0279](https://leetcode.com/problems/perfect-squares/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0279/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
