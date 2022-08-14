@@ -22,6 +22,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0037](https://leetcode.com/problems/sudoku-solver/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0037/golang) |        |      |
 | [0039](https://leetcode.com/problems/combination-sum/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0039/golang) |        |      |
 | [0040](https://leetcode.com/problems/combination-sum-ii/)                     | [link](https://github.com/KenerChang/leetcode/tree/master/0040/golang) |        |      |
+| [0042](https://leetcode.com/problems/trapping-rain-water/)                     | [link](https://github.com/KenerChang/leetcode/tree/master/0042/golang) |        |      |
 | [0043](https://leetcode.com/problems/multiply-strings/)                       | [link](https://github.com/KenerChang/leetcode/tree/master/0043/golang) |        |      |
 | [0044](https://leetcode.com/problems/wildcard-matching/)                       | [link](https://github.com/KenerChang/leetcode/tree/master/0044/golang) |        |      |
 | [0046](https://leetcode.com/problems/permutations/)                           | [link](https://github.com/KenerChang/leetcode/tree/master/0046/golang) |        |      |
