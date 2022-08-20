@@ -53,6 +53,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0081](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)      | [link](https://github.com/KenerChang/leetcode/tree/master/0081/golang) |        |      |
 | [0082](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  | [link](https://github.com/KenerChang/leetcode/tree/master/0082/golang) |        |      |
 | [0083](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)     | [link](https://github.com/KenerChang/leetcode/tree/master/0083/golang) |        |      |
+| [0084](https://leetcode.com/problems/largest-rectangle-in-histogram/)     | [link](https://github.com/KenerChang/leetcode/tree/master/0084/golang) |        |      |
 | [0086](https://leetcode.com/problems/partition-list/)                         | [link](https://github.com/KenerChang/leetcode/tree/master/0086/golang) |        |      |
 | [0088](https://leetcode.com/problems/merge-sorted-array/)                     | [link](https://github.com/KenerChang/leetcode/tree/master/0088/golang) |        |      |
 | [0089](https://leetcode.com/problems/gray-code/)                              | [link](https://github.com/KenerChang/leetcode/tree/master/0089/golang) |        |      |
@@ -214,4 +215,5 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0278](https://leetcode.com/problems/first-bad-version/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0278/golang) |        |      |
 | [0279](https://leetcode.com/problems/perfect-squares/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0279/golang) |        |      |
 | [0280](https://leetcode.com/problems/wiggle-sort/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0280/golang) |        |      |
+| [0287](https://leetcode.com/problems/find-the-duplicate-number//)             | [link](https://github.com/KenerChang/leetcode/tree/master/0287/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
