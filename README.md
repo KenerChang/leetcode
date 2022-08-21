@@ -16,7 +16,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | ----------------------------------------------------------------------------- | :--------------------------------------------------------------------: | -----: | ---: | ---- |
 | [0004](https://leetcode.com/problems/median-of-two-sorted-arrays/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0004/golang) |        |      |
 | [0010](https://leetcode.com/problems/regular-expression-matching/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0010/golang) |        |      |
-| [0023](https://leetcode.com/problems/two-sum-iii-data-structure-design/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0023/golang) |        |      |
+| [0023](https://leetcode.com/problems/merge-k-sorted-lists/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0023/golang) |        |      |
 | [0030](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0030/golang) |        |      |
 | [0032](https://leetcode.com/problems/longest-valid-parentheses/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0032/golang) |        |      |
 | [0035](https://leetcode.com/problems/search-insert-position)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0035/golang) |        |      |
@@ -127,6 +127,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0167/golang) |        |      |
 | [0168](https://leetcode.com/problems/excel-sheet-column-title/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0168/golang) |        |      |
 | [0169](https://leetcode.com/problems/majority-element/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0169/golang) |        |      |
+| [0170](https://leetcode.com/problems/two-sum-iii-data-structure-design/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0170/golang) |        |      |
 | [0171](https://leetcode.com/problems/excel-sheet-column-number/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0171/golang) |        |      |
 | [0172](https://leetcode.com/problems/factorial-trailing-zeroes/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0172/golang) |        |      |
 | [0173](https://leetcode.com/problems/binary-search-tree-iterator//)             | [link](https://github.com/KenerChang/leetcode/tree/master/0173/golang) |        |      |
