@@ -206,6 +206,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0266](https://leetcode.com/problems/palindrome-permutation/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0266/golang) |        |      |
 | [0267](https://leetcode.com/problems/palindrome-permutation-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0267/golang) |        |      |
 | [0268](https://leetcode.com/problems/missing-number/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0268/golang) |        |      |
+| [0269](https://leetcode.com/problems/alien-dictionary/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0269/golang) |        |      |
 | [0270](https://leetcode.com/problems/closest-binary-search-tree-value/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0270/golang) |        |      |
 | [0271](https://leetcode.com/problems/encode-and-decode-strings/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0271/golang) |        |      |
 | [0272](https://leetcode.com/problems/closest-binary-search-tree-value-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0272/golang) |        |      |
