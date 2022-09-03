@@ -31,6 +31,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0048](https://leetcode.com/problems/rotate-image/)                           | [link](https://github.com/KenerChang/leetcode/tree/master/0048/golang) |        |      |
 | [0049](https://leetcode.com/problems/group-anagrams/)                         | [link](https://github.com/KenerChang/leetcode/tree/master/0049/golang) |        |      |
 | [0050](https://leetcode.com/problems/powx-n/)                                 | [link](https://github.com/KenerChang/leetcode/tree/master/0050/golang) |        |      |
+| [0051](https://leetcode.com/problems/n-queens/)                                 | [link](https://github.com/KenerChang/leetcode/tree/master/0051/golang) |        |      |
 | [0053](https://leetcode.com/problems/maximum-subarray/)                                 | [link](https://github.com/KenerChang/leetcode/tree/master/0053/golang) |        |      |
 | [0054](https://leetcode.com/problems/spiral-matrix/)                          | [link](https://github.com/KenerChang/leetcode/tree/master/0054/golang) |        |      |
 | [0055](https://leetcode.com/problems/jump-game/)                              | [link](https://github.com/KenerChang/leetcode/tree/master/0055/golang) |        |      |
