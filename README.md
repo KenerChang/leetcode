@@ -220,6 +220,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0279](https://leetcode.com/problems/perfect-squares/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0279/golang) |        |      |
 | [0280](https://leetcode.com/problems/wiggle-sort/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0280/golang) |        |      |
 | [0287](https://leetcode.com/problems/find-the-duplicate-number//)             | [link](https://github.com/KenerChang/leetcode/tree/master/0287/golang) |        |      |
+| [0303](https://leetcode.com/problems/range-sum-query-immutable/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0303/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
 | [0818](https://leetcode.com/problems/race-car/)             | 
