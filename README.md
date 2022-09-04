@@ -97,6 +97,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0125](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0125/golang) |        |      |
 | [0126](https://leetcode.com/problems/word-ladder-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0126/golang) |        |      |
 | [0127](https://leetcode.com/problems/word-ladder/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0127/golang) |        |      |
+| [0128](https://leetcode.com/problems/longest-consecutive-sequence/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0128/golang) |        |      |
 | [0129](https://leetcode.com/problems/sum-root-to-leaf-numbers/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0129/golang) |        |      |
 | [0130](https://leetcode.com/problems/surrounded-regions/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0130/golang) |        |      |
 | [0131](https://leetcode.com/problems/palindrome-partitioning/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0131/golang) |        |      |
