@@ -107,6 +107,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0137](https://leetcode.com/problems/single-number-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0137/golang) |        |      |
 | [0138](https://leetcode.com/problems/copy-list-with-random-pointer/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0138/golang) |        |      |
 | [0139](https://leetcode.com/problems/word-break/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0139/golang) |        |      |
+| [0140](https://leetcode.com/problems/word-break-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0140/golang) |        |      |
 | [0141](https://leetcode.com/problems/linked-list-cycle/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0141/golang) |        |      |
 | [0142](https://leetcode.com/problems/linked-list-cycle-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0142/golang) |        |      |
 | [0143](https://leetcode.com/problems/reorder-list/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0143/golang) |        |      |
