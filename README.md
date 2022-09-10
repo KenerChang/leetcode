@@ -230,6 +230,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0299](https://leetcode.com/problems/bulls-and-cows/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0299/golang) |        |      |
 | [0303](https://leetcode.com/problems/range-sum-query-immutable/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0303/golang) |        |      |
 | [0341](https://leetcode.com/problems/flatten-nested-list-iterator/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0341/golang) |        |      |
+| [0346](https://leetcode.com/problems/moving-average-from-data-stream/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0346/golang) |        |      |
 | [0347](https://leetcode.com/problems/top-k-frequent-elements/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0347/golang) |        |      |
 | [0426](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0426/golang) |        |      |
 | [0473](https://leetcode.com/problems/matchsticks-to-square/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0473/golang) |        |      |
