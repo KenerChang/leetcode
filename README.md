@@ -227,6 +227,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0279](https://leetcode.com/problems/perfect-squares/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0279/golang) |        |      |
 | [0280](https://leetcode.com/problems/wiggle-sort/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0280/golang) |        |      |
 | [0287](https://leetcode.com/problems/find-the-duplicate-number//)             | [link](https://github.com/KenerChang/leetcode/tree/master/0287/golang) |        |      |
+| [0294](https://leetcode.com/problems/flip-game-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0294/golang) |        |      |
 | [0299](https://leetcode.com/problems/bulls-and-cows/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0299/golang) |        |      |
 | [0303](https://leetcode.com/problems/range-sum-query-immutable/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0303/golang) |        |      |
 | [0341](https://leetcode.com/problems/flatten-nested-list-iterator/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0341/golang) |        |      |
