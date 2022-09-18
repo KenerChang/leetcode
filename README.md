@@ -247,6 +247,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/0869/golang) |        |      |
 | [0973](https://leetcode.com/problems/k-closest-points-to-origin/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0973/golang) |        |      |
+| [1428](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/1428/golang) |        |      |
 | [1461](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1461/golang) |        |      |
 | [2038](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)             | 
