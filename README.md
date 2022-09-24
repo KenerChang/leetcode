@@ -237,6 +237,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0341](https://leetcode.com/problems/flatten-nested-list-iterator/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0341/golang) |        |      |
 | [0346](https://leetcode.com/problems/moving-average-from-data-stream/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0346/golang) |        |      |
 | [0347](https://leetcode.com/problems/top-k-frequent-elements/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0347/golang) |        |      |
+| [0399](https://leetcode.com/problems/evaluate-division/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0399/golang) |        |      |
 | [0426](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0426/golang) |        |      |
 | [0473](https://leetcode.com/problems/matchsticks-to-square/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0473/golang) |        |      |
 | [0489](https://leetcode.com/problems/robot-room-cleaner/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0489/golang) |        |      |
