@@ -245,6 +245,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
 | [0686](https://leetcode.com/problems/repeated-string-match/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0686/golang) |        |      |
+| [0787](https://leetcode.com/problems/cheapest-flights-within-k-stops/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0787/golang) |        |      |
 | [0796](https://leetcode.com/problems/rotate-string/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0796/golang) |        |      |
 | [0818](https://leetcode.com/problems/race-car/)             | 
