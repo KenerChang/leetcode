@@ -228,6 +228,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0278](https://leetcode.com/problems/first-bad-version/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0278/golang) |        |      |
 | [0279](https://leetcode.com/problems/perfect-squares/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0279/golang) |        |      |
 | [0280](https://leetcode.com/problems/wiggle-sort/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0280/golang) |        |      |
+| [0284](https://leetcode.com/problems/peeking-iterator)             | [link](https://github.com/KenerChang/leetcode/tree/master/0284/golang) |        |      |
 | [0287](https://leetcode.com/problems/find-the-duplicate-number//)             | [link](https://github.com/KenerChang/leetcode/tree/master/0287/golang) |        |      |
 | [0294](https://leetcode.com/problems/flip-game-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0294/golang) |        |      |
 | [0295](https://leetcode.com/problems/find-median-from-data-stream/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0295/golang) |        |      |
@@ -255,6 +256,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/0818/golang) |        |      |
 | [0869](https://leetcode.com/problems/reordered-power-of-2/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0869/golang) |        |      |
+| [0900](https://leetcode.com/problems/rle-iterator/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/0900/golang) |        |      |
 | [0973](https://leetcode.com/problems/k-closest-points-to-origin/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0973/golang) |        |      |
 | [1044](https://leetcode.com/problems/longest-duplicate-substring/)             | 
