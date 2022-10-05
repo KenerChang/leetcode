@@ -270,5 +270,7 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/1428/golang) |        |      |
 | [1461](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1461/golang) |        |      |
+| [1985](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/1985/golang) |        |      |
 | [2038](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/2038/golang) |        |      |
