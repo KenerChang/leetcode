@@ -272,6 +272,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/1428/golang) |        |      |
 | [1461](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1461/golang) |        |      |
+| [1584](https://leetcode.com/problems/min-cost-to-connect-all-points/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/1584/golang) |        |      |
 | [1977](https://leetcode.com/problems/number-of-ways-to-separate-numbers/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1977/golang) |        |      |
 | [1985](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)             | 
