@@ -2,49 +2,52 @@ package mergeinterval
 
 import "sort"
 
-type Interval struct {
-	Start int
-	End   int
+type itvals [][]int // intervals
+
+func (is itvals) Len() int {
+	return len(is)
 }
 
-type ByStart []Interval
+func (is itvals) Less(i, j int) bool {
+	return is[i][0] < is[j][0]
+}
 
-func (is ByStart) Len() int           { return len(is) }
-func (is ByStart) Swap(i, j int)      { is[i], is[j] = is[j], is[i] }
-func (is ByStart) Less(i, j int) bool { return is[i].Start < is[j].Start }
+func (is itvals) Swap(i, j int) {
+	is[i], is[j] = is[j], is[i]
+}
 
-func merge(intervals []Interval) []Interval {
-	// first sort the intervals by Start
-	// with each interval in intervals
-	// we just need to check if it should be merge with previous one
-	// the time complexity is O(nlogn)
+func max(a, b int) int {
+	if a >= b {
+		return a
+	}
+	return b
+}
 
-	if len(intervals) == 0 || len(intervals) == 1 {
+func merge(intervals [][]int) [][]int {
+	// sort intervals by start
+	// then iterate intervals if itervals[i][0] <= intervals[i-1][1], then merge the two intervals
+
+	if len(intervals) <= 1 {
 		return intervals
 	}
 
-	sort.Sort(ByStart(intervals))
-	result := []Interval{}
-	for idx, interval := range intervals {
-		if idx == 0 {
-			result = append(result, interval)
-			continue
-		}
+	sort.Sort(itvals(intervals))
 
-		previous := &result[len(result)-1]
-		if interval.Start >= previous.Start && interval.Start <= previous.End {
-			previous.End = Max(interval.End, previous.End)
+	current := intervals[0]
+	results := [][]int{}
+	for i := 0; i < len(intervals); i++ {
+		interval := intervals[i]
+
+		if interval[0] > current[1] {
+			results = append(results, current)
+			// no overlap
+			current = interval
 		} else {
-			result = append(result, interval)
+			current[1] = max(current[1], interval[1])
 		}
 	}
-	return result
-}
 
-func Max(i, j int) int {
-	if i <= j {
-		return j
-	} else {
-		return i
-	}
+	results = append(results, current)
+
+	return results
 }
