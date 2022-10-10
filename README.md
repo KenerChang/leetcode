@@ -236,6 +236,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0303](https://leetcode.com/problems/range-sum-query-immutable/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0303/golang) |        |      |
 | [0315](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0315/golang) |        |      |
 | [0329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0329/golang) |        |      |
+| [0332](https://leetcode.com/problems/reconstruct-itinerary/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0332/golang) |        |      |
 | [0341](https://leetcode.com/problems/flatten-nested-list-iterator/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0341/golang) |        |      |
 | [0346](https://leetcode.com/problems/moving-average-from-data-stream/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0346/golang) |        |      |
 | [0347](https://leetcode.com/problems/top-k-frequent-elements/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0347/golang) |        |      |
