@@ -248,6 +248,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0458](https://leetcode.com/problems/poor-pigs/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0458/golang) |        |      |
 | [0470](https://leetcode.com/problems/implement-rand10-using-rand7/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0470/golang) |        |      |
 | [0473](https://leetcode.com/problems/matchsticks-to-square/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0473/golang) |        |      |
+| [0478](https://leetcode.com/problems/generate-random-point-in-a-circle/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0478/golang) |        |      |
 | [0489](https://leetcode.com/problems/robot-room-cleaner/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0489/golang) |        |      |
 | [0493](https://leetcode.com/problems/reverse-pairs/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0493/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | 
