@@ -243,6 +243,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0380](https://leetcode.com/problems/insert-delete-getrandom-o1/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0380/golang) |        |      |
 | [0398](https://leetcode.com/problems/random-pick-index/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0398/golang) |        |      |
 | [0399](https://leetcode.com/problems/evaluate-division/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0399/golang) |        |      |
+| [0412](https://leetcode.com/problems/fizz-buzz/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0412/golang) |        |      |
 | [0426](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0426/golang) |        |      |
 | [0451](https://leetcode.com/problems/sort-characters-by-frequency/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0451/golang) |        |      |
 | [0458](https://leetcode.com/problems/poor-pigs/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0458/golang) |        |      |
