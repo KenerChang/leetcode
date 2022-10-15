@@ -292,5 +292,7 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/1985/golang) |        |      |
 | [2038](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/2038/golang) |        |      |
+| [2272](https://leetcode.com/problems/substring-with-largest-variance/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/2272/golang) |        |      |
 | [2343](https://leetcode.com/problems/query-kth-smallest-trimmed-number/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/2343/golang) |        |      |
