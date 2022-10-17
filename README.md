@@ -277,6 +277,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/0936/golang) |        |      |
 | [0973](https://leetcode.com/problems/k-closest-points-to-origin/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0973/golang) |        |      |
+| [1010](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/1010/golang) |        |      |
 | [1044](https://leetcode.com/problems/longest-duplicate-substring/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1044/golang) |        |      |
 | [1122](https://leetcode.com/problems/relative-sort-array/)             | 
