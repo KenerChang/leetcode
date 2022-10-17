@@ -283,6 +283,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/1122/golang) |        |      |
 | [1192](https://leetcode.com/problems/critical-connections-in-a-network/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1192/golang) |        |      |
+| [1207](https://leetcode.com/problems/unique-number-of-occurrences/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/1207/golang) |        |      |
 | [1428](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1428/golang) |        |      |
 | [1461](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)             | 
