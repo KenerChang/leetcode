@@ -273,6 +273,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/0900/golang) |        |      |
 | [0912](https://leetcode.com/problems/sort-an-array/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0912/golang) |        |      |
+| [0936](https://leetcode.com/problems/stamping-the-sequence/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/0936/golang) |        |      |
 | [0973](https://leetcode.com/problems/k-closest-points-to-origin/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0973/golang) |        |      |
 | [1044](https://leetcode.com/problems/longest-duplicate-substring/)             | 
