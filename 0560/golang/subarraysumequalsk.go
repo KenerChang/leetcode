@@ -1,35 +1,25 @@
 package subarraysumequalsk
 
-func getSum(i, j int, nums []int) int {
-	// get sum of nums[i:j]
-	if i == j {
-		if i == 0 {
-			return nums[0]
-		} else {
-			return nums[i] - nums[i-1]
-		}
-	} else {
-		if i == 0 {
-			return nums[j]
-		} else {
-			return nums[j] - nums[i-1]
-		}
-	}
-}
-
 func subarraySum(nums []int, k int) int {
-	// try sum up nums
-	for i := 1; i < len(nums); i++ {
-		nums[i] += nums[i-1]
+	// Consider that if sum of sum[i] - sum[j] is 0, it means that sum of nums between nums[i] and nunms[j] is 0.
+	// Extend this thought, if sums[j] - sum[i] is k, it means nums[i+1] to nums[j] is a subarray which sums to k
+	// so we can use a map to keep sums of nums and for every num, we get sum of num[i], and see if sum[i] - k is in map
+
+	countMap := map[int]int{
+		0: 1, // for sum[i] = k
+	}
+	var result int
+	var sum int
+	for _, num := range nums {
+		sum += num
+
+		// fmt.Printf("sum: %d, sum-k: %d, countMap: %v\n", sum, sum-k, countMap)
+		if count, ok := countMap[sum-k]; ok {
+			result += count
+		}
+
+		countMap[sum]++
 	}
 
-	var count int
-	for i := 0; i < len(nums); i++ {
-		for j := 0; i+j < len(nums); j++ {
-			if getSum(i, i+j, nums) == k {
-				count++
-			}
-		}
-	}
-	return count
+	return result
 }
