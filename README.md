@@ -260,6 +260,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/0528/golang) |        |      |
 | [0560](https://leetcode.com/problems/subarray-sum-equals-k/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0560/golang) |        |      |
+| [0629](https://leetcode.com/problems/k-inverse-pairs-array/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/0629/golang) |        |      |
 | [0686](https://leetcode.com/problems/repeated-string-match/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0686/golang) |        |      |
 | [0692](https://leetcode.com/problems/top-k-frequent-words/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0692/golang) |        |      |
 | [0716](https://leetcode.com/problems/max-stack/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0716/golang) |        |      |
