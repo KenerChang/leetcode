@@ -234,6 +234,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0294](https://leetcode.com/problems/flip-game-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0294/golang) |        |      |
 | [0295](https://leetcode.com/problems/find-median-from-data-stream/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0295/golang) |        |      |
 | [0299](https://leetcode.com/problems/bulls-and-cows/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0299/golang) |        |      |
+| [0300](https://leetcode.com/problems/longest-increasing-subsequence/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0300/golang) |        |      |
 | [0303](https://leetcode.com/problems/range-sum-query-immutable/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0303/golang) |        |      |
 | [0315](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0315/golang) |        |      |
 | [0324](https://leetcode.com/problems/wiggle-sort-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0324/golang) |        |      |
