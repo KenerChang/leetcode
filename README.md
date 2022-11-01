@@ -237,6 +237,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0300](https://leetcode.com/problems/longest-increasing-subsequence/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0300/golang) |        |      |
 | [0303](https://leetcode.com/problems/range-sum-query-immutable/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0303/golang) |        |      |
 | [0315](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0315/golang) |        |      |
+| [0322](https://leetcode.com/problems/coin-change/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0322/golang) |        |      |
 | [0324](https://leetcode.com/problems/wiggle-sort-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0324/golang) |        |      |
 | [0329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0329/golang) |        |      |
 | [0332](https://leetcode.com/problems/reconstruct-itinerary/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0332/golang) |        |      |
