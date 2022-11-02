@@ -304,6 +304,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://leetcode.com/problems/analyze-user-website-visit-pattern/) |        |      |
 | [1192](https://leetcode.com/problems/critical-connections-in-a-network/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1192/golang) |        |      |
+| [1197](https://leetcode.com/problems/minimum-knight-moves/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/1197/golang) |        |      |
 | [1207](https://leetcode.com/problems/unique-number-of-occurrences/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1207/golang) |        |      |
 | [1428](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)             | 
