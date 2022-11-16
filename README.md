@@ -301,6 +301,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/0973/golang) |        |      |
 | [0987](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0987/golang) |        |      |
+| [0994](https://leetcode.com/problems/rotting-oranges/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/0994/golang) |        |      |
 | [1010](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1010/golang) |        |      |
 | [1044](https://leetcode.com/problems/longest-duplicate-substring/)             | 
