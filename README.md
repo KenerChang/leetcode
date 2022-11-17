@@ -283,6 +283,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/0796/golang) |        |      |
 | [0811](https://leetcode.com/problems/subdomain-visit-count/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0811/golang) |        |      |
+| [0814](https://leetcode.com/problems/binary-tree-pruning/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/0814/golang) |        |      |
 | [0818](https://leetcode.com/problems/race-car/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0818/golang) |        |      |
 | [0850](https://leetcode.com/problems/rectangle-area-ii/)             | 
