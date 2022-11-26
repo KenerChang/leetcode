@@ -311,6 +311,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/1010/golang) |        |      |
 | [1044](https://leetcode.com/problems/longest-duplicate-substring/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1044/golang) |        |      |
+| [1048](https://leetcode.com/problems/longest-string-chain/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/1048/golang) |        |      |
 | [1122](https://leetcode.com/problems/relative-sort-array/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1122/golang) |        |      |
 | [1152](https://leetcode.com/problems/relative-sort-array/)             | 
