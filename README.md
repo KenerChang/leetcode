@@ -324,6 +324,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/1197/golang) |        |      |
 | [1207](https://leetcode.com/problems/unique-number-of-occurrences/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1207/golang) |        |      |
+| [1239](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/1239/golang) |        |      |
 | [1428](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1428/golang) |        |      |
 | [1461](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)             | 
