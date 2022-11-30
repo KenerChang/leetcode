@@ -338,6 +338,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/1642/golang) |        |      |
 | [1647](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1647/golang) |        |      |
+| [1680](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/1680/golang) |        |      |
 | [1977](https://leetcode.com/problems/number-of-ways-to-separate-numbers/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1977/golang) |        |      |
 | [1985](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)             | 
