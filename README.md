@@ -280,6 +280,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0716](https://leetcode.com/problems/max-stack/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0716/golang) |        |      |
 | [0718](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0718/golang) |        |      |
 | [0729](https://leetcode.com/problems/game-of-life/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0729/golang) |        |      |
+| [0767](https://leetcode.com/problems/reorganize-string/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0767/golang) |        |      |
 | [0787](https://leetcode.com/problems/cheapest-flights-within-k-stops/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0787/golang) |        |      |
 | [0796](https://leetcode.com/problems/rotate-string/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0796/golang) |        |      |
