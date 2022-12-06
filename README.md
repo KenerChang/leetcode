@@ -237,6 +237,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0299](https://leetcode.com/problems/bulls-and-cows/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0299/golang) |        |      |
 | [0300](https://leetcode.com/problems/longest-increasing-subsequence/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0300/golang) |        |      |
 | [0303](https://leetcode.com/problems/range-sum-query-immutable/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0303/golang) |        |      |
+| [0310](https://leetcode.com/problems/minimum-height-trees/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0310/golang) |        |      |
 | [0314](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0314/golang) |        |      |
 | [0315](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0315/golang) |        |      |
 | [0322](https://leetcode.com/problems/coin-change/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0322/golang) |        |      |
