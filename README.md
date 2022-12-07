@@ -241,6 +241,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0314](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0314/golang) |        |      |
 | [0315](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0315/golang) |        |      |
 | [0322](https://leetcode.com/problems/coin-change/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0322/golang) |        |      |
+| [0323](hhttps://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0323/golang) |        |      |
 | [0324](https://leetcode.com/problems/wiggle-sort-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0324/golang) |        |      |
 | [0329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0329/golang) |        |      |
 | [0332](https://leetcode.com/problems/reconstruct-itinerary/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0332/golang) |        |      |
