@@ -259,6 +259,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0412](https://leetcode.com/problems/fizz-buzz/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0412/golang) |        |      |
 | [0426](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0426/golang) |        |      |
 | [0443](https://leetcode.com/problems/string-compression/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0443/golang) |        |      |
+| [0444](https://leetcode.com/problems/sequence-reconstruction/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0444/golang) |        |      |
 | [0451](https://leetcode.com/problems/sort-characters-by-frequency/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0451/golang) |        |      |
 | [0458](https://leetcode.com/problems/poor-pigs/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0458/golang) |        |      |
 | [0470](https://leetcode.com/problems/implement-rand10-using-rand7/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0470/golang) |        |      |
