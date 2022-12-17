@@ -261,6 +261,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0394](https://leetcode.com/problems/decode-string/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0394/golang) |        |      |
 | [0398](https://leetcode.com/problems/random-pick-index/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0398/golang) |        |      |
 | [0399](https://leetcode.com/problems/evaluate-division/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0399/golang) |        |      |
+| [0401](https://leetcode.com/problems/binary-watch/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0401/golang) |        |      |
 | [0412](https://leetcode.com/problems/fizz-buzz/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0412/golang) |        |      |
 | [0415](https://leetcode.com/problems/add-strings/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0415/golang) |        |      |
 | [0418](https://leetcode.com/problems/sentence-screen-fitting/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0418/golang) |        |      |
