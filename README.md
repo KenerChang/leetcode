@@ -316,6 +316,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/0900/golang) |        |      |
 | [0912](https://leetcode.com/problems/sort-an-array/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0912/golang) |        |      |
+| [0923](https://leetcode.com/problems/3sum-with-multiplicity/description/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/0923/golang) |        |      |
 | [0936](https://leetcode.com/problems/stamping-the-sequence/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0936/golang) |        |      |
 | [0947](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)             | 
