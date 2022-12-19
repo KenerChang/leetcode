@@ -321,6 +321,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/0923/golang) |        |      |
 | [0936](https://leetcode.com/problems/stamping-the-sequence/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0936/golang) |        |      |
+| [0945](https://leetcode.com/problems/minimum-increment-to-make-array-unique/description/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/0945/golang) |        |      |
 | [0947](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0947/golang) |        |      |
 | [0973](https://leetcode.com/problems/k-closest-points-to-origin/)             | 
