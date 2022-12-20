@@ -344,7 +344,9 @@ The README.md file in each problem folder is used to describe my though and solu
 | [1122](https://leetcode.com/problems/relative-sort-array/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1122/golang) |        |      |
 | [1152](https://leetcode.com/problems/relative-sort-array/)             | 
-[link](https://leetcode.com/problems/analyze-user-website-visit-pattern/) |        |      |
+[link](https://github.com/KenerChang/leetcode/tree/master/1152/golang) |        |      |
+| [1176](https://leetcode.com/problems/diet-plan-performance/description/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/1176/golang) |        |      |
 | [1192](https://leetcode.com/problems/critical-connections-in-a-network/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/1192/golang) |        |      |
 | [1197](https://leetcode.com/problems/minimum-knight-moves/)             | 
