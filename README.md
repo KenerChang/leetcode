@@ -252,6 +252,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0329/golang) |        |      |
 | [0332](https://leetcode.com/problems/reconstruct-itinerary/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0332/golang) |        |      |
 | [0339](https://leetcode.com/problems/nested-list-weight-sum/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0339/golang) |        |      |
+| [0340](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0339/golang) |        |      |
 | [0341](https://leetcode.com/problems/flatten-nested-list-iterator/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0341/golang) |        |      |
 | [0346](https://leetcode.com/problems/moving-average-from-data-stream/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0346/golang) |        |      |
 | [0347](https://leetcode.com/problems/top-k-frequent-elements/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0347/golang) |        |      |
