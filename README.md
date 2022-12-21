@@ -283,6 +283,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
 | [0528](https://leetcode.com/problems/random-pick-with-weight/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0528/golang) |        |      |
+| [0547](https://leetcode.com/problems/number-of-provinces/description/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/0528/golang) |        |      |
 | [0560](https://leetcode.com/problems/subarray-sum-equals-k/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0560/golang) |        |      |
 | [0629](https://leetcode.com/problems/k-inverse-pairs-array/)             | 
