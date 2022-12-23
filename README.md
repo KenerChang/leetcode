@@ -293,6 +293,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/0643/golang) |        |      |
 | [0659](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0659/golang) |        |      |
+| [0684](https://leetcode.com/problems/redundant-connection/description/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/0684/golang) |        |      |
 | [0686](https://leetcode.com/problems/repeated-string-match/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0686/golang) |        |      |
 | [0692](https://leetcode.com/problems/top-k-frequent-words/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0692/golang) |        |      |
 | [0704](https://leetcode.com/problems/binary-search/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0704/golang) |        |      |
