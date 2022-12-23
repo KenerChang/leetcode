@@ -298,6 +298,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0686](https://leetcode.com/problems/repeated-string-match/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0686/golang) |        |      |
 | [0692](https://leetcode.com/problems/top-k-frequent-words/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0692/golang) |        |      |
 | [0694](https://leetcode.com/problems/number-of-distinct-islands/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0694/golang) |        |      |
+| [0695](https://leetcode.com/problems/max-area-of-island/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0695/golang) |        |      |
 | [0704](https://leetcode.com/problems/binary-search/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0704/golang) |        |      |
 | [0716](https://leetcode.com/problems/max-stack/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0716/golang) |        |      |
 | [0718](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0718/golang) |        |      |
