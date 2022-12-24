@@ -258,6 +258,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0346](https://leetcode.com/problems/moving-average-from-data-stream/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0346/golang) |        |      |
 | [0347](https://leetcode.com/problems/top-k-frequent-elements/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0347/golang) |        |      |
 | [0354](https://leetcode.com/problems/russian-doll-envelopes/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0354/golang) |        |      |
+| [0355](https://leetcode.com/problems/design-twitter/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0355/golang) |        |      |
 | [0364](https://leetcode.com/problems/nested-list-weight-sum-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0364/golang) |        |      |
 | [0366](https://leetcode.com/problems/find-leaves-of-binary-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0366/golang) |        |      |
 | [0380](https://leetcode.com/problems/insert-delete-getrandom-o1/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0380/golang) |        |      |
