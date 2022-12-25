@@ -261,6 +261,8 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0355](https://leetcode.com/problems/design-twitter/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0355/golang) |        |      |
 | [0364](https://leetcode.com/problems/nested-list-weight-sum-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0364/golang) |        |      |
 | [0366](https://leetcode.com/problems/find-leaves-of-binary-tree/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0366/golang) |        |      |
+| [0369](https://leetcode.com/problems/plus-one-linked-list/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0369/golang) |        |      |
+| [0379](https://leetcode.com/problems/design-phone-directory/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0379/golang) |        |      |
 | [0380](https://leetcode.com/problems/insert-delete-getrandom-o1/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0380/golang) |        |      |
 | [0383](https://leetcode.com/problems/ransom-note/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0383/golang) |        |      |
 | [0387](https://leetcode.com/problems/first-unique-character-in-a-string/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0387/golang) |        |      |
