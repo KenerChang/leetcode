@@ -264,6 +264,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0369](https://leetcode.com/problems/plus-one-linked-list/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0369/golang) |        |      |
 | [0379](https://leetcode.com/problems/design-phone-directory/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0379/golang) |        |      |
 | [0380](https://leetcode.com/problems/insert-delete-getrandom-o1/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0380/golang) |        |      |
+| [0382](https://leetcode.com/problems/linked-list-random-node/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0382/golang) |        |      |
 | [0383](https://leetcode.com/problems/ransom-note/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0383/golang) |        |      |
 | [0387](https://leetcode.com/problems/first-unique-character-in-a-string/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0387/golang) |        |      |
 | [0394](https://leetcode.com/problems/decode-string/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0394/golang) |        |      |
@@ -276,6 +277,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0426](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0426/golang) |        |      |
 | [0443](https://leetcode.com/problems/string-compression/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0443/golang) |        |      |
 | [0444](https://leetcode.com/problems/sequence-reconstruction/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0444/golang) |        |      |
+| [0445](https://leetcode.com/problems/add-two-numbers-ii/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0445/golang) |        |      |
 | [0451](https://leetcode.com/problems/sort-characters-by-frequency/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0451/golang) |        |      |
 | [0458](https://leetcode.com/problems/poor-pigs/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0458/golang) |        |      |
 | [0470](https://leetcode.com/problems/implement-rand10-using-rand7/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0470/golang) |        |      |
