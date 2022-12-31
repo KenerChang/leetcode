@@ -244,6 +244,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0310](https://leetcode.com/problems/minimum-height-trees/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0310/golang) |        |      |
 | [0314](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0314/golang) |        |      |
 | [0315](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0315/golang) |        |      |
+| [0316](https://leetcode.com/problems/remove-duplicate-letters/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0316/golang) |        |      |
 | [0320](https://leetcode.com/problems/generalized-abbreviation/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0320/golang) |        |      |
 | [0322](https://leetcode.com/problems/coin-change/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0322/golang) |        |      |
 | [0323](hhttps://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0323/golang) |        |      |
