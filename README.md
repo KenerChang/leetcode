@@ -287,6 +287,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0478](https://leetcode.com/problems/generate-random-point-in-a-circle/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0478/golang) |        |      |
 | [0489](https://leetcode.com/problems/robot-room-cleaner/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0489/golang) |        |      |
 | [0493](https://leetcode.com/problems/reverse-pairs/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0493/golang) |        |      |
+| [0496](https://leetcode.com/problems/next-greater-element-i/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0496/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
 | [0528](https://leetcode.com/problems/random-pick-with-weight/)             | 
