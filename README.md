@@ -290,6 +290,8 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0496](https://leetcode.com/problems/next-greater-element-i/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0496/golang) |        |      |
 | [0501](https://leetcode.com/problems/find-mode-in-binary-search-tree/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0501/golang) |        |      |
+| [0503](https://leetcode.com/problems/next-greater-element-ii/description/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/0503/golang) |        |      |
 | [0528](https://leetcode.com/problems/random-pick-with-weight/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0528/golang) |        |      |
 | [0547](https://leetcode.com/problems/number-of-provinces/description/)             | 
