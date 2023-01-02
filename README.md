@@ -307,6 +307,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/0643/golang) |        |      |
 | [0659](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0659/golang) |        |      |
+| [0681](https://leetcode.com/problems/next-closest-time/description/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/0681/golang) |        |      |
 | [0684](https://leetcode.com/problems/redundant-connection/description/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0684/golang) |        |      |
 | [0686](https://leetcode.com/problems/repeated-string-match/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0686/golang) |        |      |
