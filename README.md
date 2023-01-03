@@ -333,6 +333,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/0818/golang) |        |      |
 | [0819](https://leetcode.com/problems/most-common-word/description/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0819/golang) |        |      |
+| [0845](https://leetcode.com/problems/longest-mountain-in-array/description/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/0845/golang) |        |      |
 | [0850](https://leetcode.com/problems/rectangle-area-ii/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0850/golang) |        |      |
 | [0858](https://leetcode.com/problems/mirror-reflection/)             | 
