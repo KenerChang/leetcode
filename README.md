@@ -323,6 +323,8 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0787](https://leetcode.com/problems/cheapest-flights-within-k-stops/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0787/golang) |        |      |
 | [0796](https://leetcode.com/problems/rotate-string/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0796/golang) |        |      |
+| [0800](https://leetcode.com/problems/similar-rgb-color/description/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/0800/golang) |        |      |
 | [0811](https://leetcode.com/problems/subdomain-visit-count/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0811/golang) |        |      |
 | [0814](https://leetcode.com/problems/binary-tree-pruning/)             | 
