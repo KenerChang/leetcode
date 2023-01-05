@@ -270,6 +270,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0382](https://leetcode.com/problems/linked-list-random-node/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0382/golang) |        |      |
 | [0383](https://leetcode.com/problems/ransom-note/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0383/golang) |        |      |
 | [0387](https://leetcode.com/problems/first-unique-character-in-a-string/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0387/golang) |        |      |
+| [0390](https://leetcode.com/problems/elimination-game/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0390/golang) |        |      |
 | [0394](https://leetcode.com/problems/decode-string/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0394/golang) |        |      |
 | [0398](https://leetcode.com/problems/random-pick-index/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0398/golang) |        |      |
 | [0399](https://leetcode.com/problems/evaluate-division/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0399/golang) |        |      |
