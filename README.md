@@ -269,6 +269,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0380](https://leetcode.com/problems/insert-delete-getrandom-o1/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0380/golang) |        |      |
 | [0382](https://leetcode.com/problems/linked-list-random-node/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0382/golang) |        |      |
 | [0383](https://leetcode.com/problems/ransom-note/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0383/golang) |        |      |
+| [0386](https://leetcode.com/problems/lexicographical-numbers/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0386/golang) |        |      |
 | [0387](https://leetcode.com/problems/first-unique-character-in-a-string/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0387/golang) |        |      |
 | [0390](https://leetcode.com/problems/elimination-game/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0390/golang) |        |      |
 | [0394](https://leetcode.com/problems/decode-string/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0394/golang) |        |      |
@@ -299,6 +300,8 @@ The README.md file in each problem folder is used to describe my though and solu
 [link](https://github.com/KenerChang/leetcode/tree/master/0503/golang) |        |      |
 | [0528](https://leetcode.com/problems/random-pick-with-weight/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0528/golang) |        |      |
+| [0544](https://leetcode.com/problems/output-contest-matches/description/)             | 
+[link](https://github.com/KenerChang/leetcode/tree/master/0544/golang) |        |      |
 | [0547](https://leetcode.com/problems/number-of-provinces/description/)             | 
 [link](https://github.com/KenerChang/leetcode/tree/master/0528/golang) |        |      |
 | [0560](https://leetcode.com/problems/subarray-sum-equals-k/)             | 
