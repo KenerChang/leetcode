@@ -19,6 +19,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0004](https://leetcode.com/problems/median-of-two-sorted-arrays/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0004/golang) |        |      |
 | [0009](https://leetcode.com/problems/palindrome-number/description/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0009/golang) |        |      |
 | [0010](https://leetcode.com/problems/regular-expression-matching/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0010/golang) |        |      |
+| [0022](https://leetcode.com/problems/generate-parentheses/description/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0022/golang) |        |      |
 | [0023](https://leetcode.com/problems/merge-k-sorted-lists/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0023/golang) |        |      |
 | [0025](https://leetcode.com/problems/reverse-nodes-in-k-group//)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0025/golang) |        |      |
 | [0030](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0030/golang) |        |      |
