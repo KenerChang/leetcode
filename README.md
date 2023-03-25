@@ -16,6 +16,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | ----------------------------------------------------------------------------- | :--------------------------------------------------------------------: | -----: | ---: | ---- |
 | [0001](https://leetcode.com/problems/two-sum/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0001/golang) |        |      |
 | [0002](https://leetcode.com/problems/add-two-numbers/description/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0002/golang) |        |      |
+| [0003](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0003/golang) |        |      |
 | [0004](https://leetcode.com/problems/median-of-two-sorted-arrays/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0004/golang) |        |      |
 | [0009](https://leetcode.com/problems/palindrome-number/description/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0009/golang) |        |      |
 | [0010](https://leetcode.com/problems/regular-expression-matching/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0010/golang) |        |      |
