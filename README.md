@@ -242,6 +242,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0283](https://leetcode.com/problems/move-zeroes/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0283/golang) |        |      |
 | [0284](https://leetcode.com/problems/peeking-iterator)             | [link](https://github.com/KenerChang/leetcode/tree/master/0284/golang) |        |      |
 | [0285](https://leetcode.com/problems/inorder-successor-in-bst/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0285/golang) |        |      |
+| [0286](https://leetcode.com/problems/walls-and-gates/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0286/golang) |        |      |
 | [0287](https://leetcode.com/problems/find-the-duplicate-number//)             | [link](https://github.com/KenerChang/leetcode/tree/master/0287/golang) |        |      |
 | [0289](https://leetcode.com/problems/game-of-life/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0289/golang) |        |      |
 | [0291](https://leetcode.com/problems/word-pattern-ii/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0291/golang) |        |      |
