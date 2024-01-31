@@ -252,6 +252,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0293](https://leetcode.com/problems/flip-game/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0293/golang) |        |      |
 | [0294](https://leetcode.com/problems/flip-game-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0294/golang) |        |      |
 | [0295](https://leetcode.com/problems/find-median-from-data-stream/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0295/golang) |        |      |
+| [0298](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0298/golang) |        |      |
 | [0299](https://leetcode.com/problems/bulls-and-cows/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0299/golang) |        |      |
 | [0300](https://leetcode.com/problems/longest-increasing-subsequence/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0300/golang) |        |      |
 | [0303](https://leetcode.com/problems/range-sum-query-immutable/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0303/golang) |        |      |
