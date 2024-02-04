@@ -256,6 +256,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0299](https://leetcode.com/problems/bulls-and-cows/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0299/golang) |        |      |
 | [0300](https://leetcode.com/problems/longest-increasing-subsequence/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0300/golang) |        |      |
 | [0301](https://leetcode.com/problems/remove-invalid-parentheses/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0301/golang) |        |      |
+| [0302](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0302/golang) |        |      |
 | [0303](https://leetcode.com/problems/range-sum-query-immutable/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0303/golang) |        |      |
 | [0304](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0304/golang) |        |      |
 | [0305](https://leetcode.com/problems/number-of-islands-ii/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0305/golang) |        |      |
