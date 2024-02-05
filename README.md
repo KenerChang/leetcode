@@ -261,6 +261,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0304](https://leetcode.com/problems/range-sum-query-2d-immutable/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0304/golang) |        |      |
 | [0305](https://leetcode.com/problems/number-of-islands-ii/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0305/golang) |        |      |
 | [0306](https://leetcode.com/problems/additive-number/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0306/golang) |        |      |
+| [0307](https://leetcode.com/problems/range-sum-query-mutable/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0307/golang) |        |      |
 | [0310](https://leetcode.com/problems/minimum-height-trees/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0310/golang) |        |      |
 | [0314](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0314/golang) |        |      |
 | [0315](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0315/golang) |        |      |
