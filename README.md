@@ -265,6 +265,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0308](https://leetcode.com/problems/range-sum-query-2d-mutable/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0308/golang) |        |      |
 | [0309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0309/golang) |        |      |
 | [0310](https://leetcode.com/problems/minimum-height-trees/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0310/golang) |        |      |
+| [0311](https://leetcode.com/problems/sparse-matrix-multiplication/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0311/golang) |        |      |
 | [0314](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0314/golang) |        |      |
 | [0315](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0315/golang) |        |      |
 | [0316](https://leetcode.com/problems/remove-duplicate-letters/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0316/golang) |        |      |
