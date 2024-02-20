@@ -209,6 +209,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0245](https://leetcode.com/problems/shortest-word-distance-iii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0245/golang) |        |      |
 | [0246](https://leetcode.com/problems/strobogrammatic-number/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0246/golang) |        |      |
 | [0247](https://leetcode.com/problems/strobogrammatic-number-ii/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0247/golang) |        |      |
+| [0248](https://leetcode.com/problems/strobogrammatic-number-iii/description/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0248/golang) |        |      |
 | [0249](https://leetcode.com/problems/group-shifted-strings/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0249/golang) |        |      |
 | [0250](https://leetcode.com/problems/count-univalue-subtrees/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0250/golang) |        |      |
 | [0251](https://leetcode.com/problems/flatten-2d-vector/)             | [link](https://github.com/KenerChang/leetcode/tree/master/0251/golang) |        |      |
