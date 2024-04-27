@@ -51,6 +51,7 @@ The README.md file in each problem folder is used to describe my though and solu
 | [0062](https://leetcode.com/problems/unique-paths/)                           | [link](https://github.com/KenerChang/leetcode/tree/master/0062/golang) |        |      |
 | [0063](https://leetcode.com/problems/unique-paths-ii/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0063/golang) |        |      |
 | [0064](https://leetcode.com/problems/minimum-path-sum/)                       | [link](https://github.com/KenerChang/leetcode/tree/master/0064/golang) |        |      |
+| [0065](https://leetcode.com/problems/valid-number/description/)                       | [link](https://github.com/KenerChang/leetcode/tree/master/0065/golang) |        |      |
 | [0068](https://leetcode.com/problems/text-justification/)                       | [link](https://github.com/KenerChang/leetcode/tree/master/0068/golang) |        |      |
 | [0069](https://leetcode.com/problems/sqrtx/)                                  | [link](https://github.com/KenerChang/leetcode/tree/master/0069/golang) |        |      |
 | [0070](https://leetcode.com/problems/climbing-stairs/)                        | [link](https://github.com/KenerChang/leetcode/tree/master/0070/golang) |        |      |
